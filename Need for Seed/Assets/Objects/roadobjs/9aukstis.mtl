@@ -1,0 +1,123 @@
+# Blender MTL File: 'None'
+# Material Count: 11
+
+newmtl daugiabut
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.588235 0.600000 0.572549
+Ks 0.330000 0.330000 0.330000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\Users\Lukas\Desktop\for nfs\9aukstis\daugiabut.jpg
+
+newmtl daugiabut5_
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.588235 0.600000 0.572549
+Ks 0.330000 0.330000 0.330000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\Users\Lukas\Desktop\for nfs\9aukstis\daugiabut5_.jpg
+
+newmtl daugiabut6_
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.588235 0.600000 0.572549
+Ks 0.330000 0.330000 0.330000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\Users\Lukas\Desktop\for nfs\9aukstis\daugiabut6_.jpg
+
+newmtl daugiabut7_
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.588235 0.600000 0.572549
+Ks 0.330000 0.330000 0.330000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\Users\Lukas\Desktop\for nfs\9aukstis\daugiabut7_.jpg
+
+newmtl daugiabut_2
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.435294 0.458824 0.470588
+Ks 0.330000 0.330000 0.330000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\Users\Lukas\Desktop\for nfs\9aukstis\daugiabut_2.jpg
+
+newmtl daugiabut_2_1_
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.435294 0.458824 0.470588
+Ks 0.330000 0.330000 0.330000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\Users\Lukas\Desktop\for nfs\9aukstis\daugiabut_2_1_.jpg
+
+newmtl daugiabut_2_2_
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.435294 0.458824 0.470588
+Ks 0.330000 0.330000 0.330000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\Users\Lukas\Desktop\for nfs\9aukstis\daugiabut_2_2_.jpg
+
+newmtl daugiabut_2_5_
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.435294 0.458824 0.470588
+Ks 0.330000 0.330000 0.330000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\Users\Lukas\Desktop\for nfs\9aukstis\daugiabut_2_5_.jpg
+
+newmtl daugiabut_3_10_
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.513725 0.533333 0.517647
+Ks 0.330000 0.330000 0.330000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\Users\Lukas\Desktop\for nfs\9aukstis\daugiabut_3_10_.jpg
+
+newmtl daugiabut_3_3_
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.513725 0.533333 0.517647
+Ks 0.330000 0.330000 0.330000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\Users\Lukas\Desktop\for nfs\9aukstis\daugiabut_3_3_.jpg
+
+newmtl daugiabut_3_4_
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.513725 0.533333 0.517647
+Ks 0.330000 0.330000 0.330000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\Users\Lukas\Desktop\for nfs\9aukstis\daugiabut_3_4_.jpg

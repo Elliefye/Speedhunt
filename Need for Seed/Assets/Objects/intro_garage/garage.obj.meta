@@ -1,0 +1,173 @@
+fileFormatVersion: 2
+guid: 7b7130e6c319dff4eb7885383414fccb
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: carimp_SFE
+    100002: //RootNode
+    400000: carimp_SFE
+    400002: //RootNode
+    2100000: ws_carpark3
+    2100002: ws_carpark1
+    2100004: helipad_bits
+    2100006: ws_doubledoor1
+    2100008: ws_carpark2
+    2100010: ws_carparkwall2
+    2100012: airvent_gz
+    2100014: concretenewb256
+    2100016: ws_fluorescent1
+    2100018: block2_high
+    2100020: poundroofsupport_sfe
+    2100022: poundroofblock_sfe
+    2100024: poundwall1_sfe
+    2300000: carimp_SFE
+    3300000: carimp_SFE
+    4300000: carimp_SFE
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: airvent_gz
+    second: {fileID: 2100000, guid: 1c586ead7fc3f6a4aabab29370718117, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: block2_high
+    second: {fileID: 2100000, guid: 57ce24546018bef40b7a104790d19ae3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: concretenewb256
+    second: {fileID: 2100000, guid: ea897845ae448db4f8f5503781abb1dc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: helipad_bits
+    second: {fileID: 2100000, guid: 9f3157429c9504b4d89e661345a97510, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: poundroofblock_sfe
+    second: {fileID: 2100000, guid: 60acacc00d31bf74cacfeb9322b3ac67, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: poundroofsupport_sfe
+    second: {fileID: 2100000, guid: 2aa45fa6aa334154ba417342b8c39f99, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: poundwall1_sfe
+    second: {fileID: 2100000, guid: 821faf7f43921904ab63b6dd0719f5d0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ws_carpark1
+    second: {fileID: 2100000, guid: 98d9c1c74a8994649bc524c87ed41d4f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ws_carpark2
+    second: {fileID: 2100000, guid: a8277a5959e90924c823607fe8a7bfb5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ws_carpark3
+    second: {fileID: 2100000, guid: 4e756032881440d4891f94ddda8c0936, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ws_carparkwall2
+    second: {fileID: 2100000, guid: 6ad959addb608354d98919cba696efd4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ws_doubledoor1
+    second: {fileID: 2100000, guid: 8e26b96c4f924c14f805009b7d439598, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ws_fluorescent1
+    second: {fileID: 2100000, guid: 2893f0d634288544c8f4d3f625410b75, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

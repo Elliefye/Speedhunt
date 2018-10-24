@@ -1,0 +1,452 @@
+fileFormatVersion: 2
+guid: ed3e2a902a1f51744a7def84961b92ae
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: lempa
+    100004: lempa.001
+    100006: lempa.001_lempa.000
+    100008: lempa.001_lempa.001
+    100010: lempa.001_lempa.002
+    100012: lempa.001_lempa.003
+    100014: lempa.002
+    100016: lempa.002_lempa.000
+    100018: lempa.002_lempa.001
+    100020: lempa.002_lempa.002
+    100022: lempa.002_lempa.003
+    100024: lempa.003
+    100026: lempa.003_lempa.000
+    100028: lempa.003_lempa.001
+    100030: lempa.003_lempa.004
+    100032: sub_roadright_l0
+    100034: sub_roadright_l0.001
+    100036: sub_roadright_l0.002
+    100038: sub_roadright_l0.003
+    100040: sub_roadright_l0.004
+    100042: sub_roadright_l0.005
+    100044: sub_roadright_l0.006
+    100046: sub_roadright_l0.007
+    100048: sub_roadright_l0.008
+    100050: sub_roadright_l0.009
+    100052: sub_roadright_l0.010
+    100054: sub_roadright_l0.011
+    100056: sub_roadright_l0.012
+    100058: sub_roadright_l0.013
+    100060: VegasEroad048
+    100062: vegasEroad064
+    100064: vegasEroad064.001
+    100066: vegasEroad064.002
+    100068: vegasEroad064.003
+    100070: vegasEroad065
+    100072: vegasEroad065.001
+    100074: VegasEroad094.001
+    100076: VegasSroad017
+    100078: VegasSroad017.001
+    100080: vgsSairportland13.001
+    400000: //RootNode
+    400002: lempa
+    400004: lempa.001
+    400006: lempa.001_lempa.000
+    400008: lempa.001_lempa.001
+    400010: lempa.001_lempa.002
+    400012: lempa.001_lempa.003
+    400014: lempa.002
+    400016: lempa.002_lempa.000
+    400018: lempa.002_lempa.001
+    400020: lempa.002_lempa.002
+    400022: lempa.002_lempa.003
+    400024: lempa.003
+    400026: lempa.003_lempa.000
+    400028: lempa.003_lempa.001
+    400030: lempa.003_lempa.004
+    400032: sub_roadright_l0
+    400034: sub_roadright_l0.001
+    400036: sub_roadright_l0.002
+    400038: sub_roadright_l0.003
+    400040: sub_roadright_l0.004
+    400042: sub_roadright_l0.005
+    400044: sub_roadright_l0.006
+    400046: sub_roadright_l0.007
+    400048: sub_roadright_l0.008
+    400050: sub_roadright_l0.009
+    400052: sub_roadright_l0.010
+    400054: sub_roadright_l0.011
+    400056: sub_roadright_l0.012
+    400058: sub_roadright_l0.013
+    400060: VegasEroad048
+    400062: vegasEroad064
+    400064: vegasEroad064.001
+    400066: vegasEroad064.002
+    400068: vegasEroad064.003
+    400070: vegasEroad065
+    400072: vegasEroad065.001
+    400074: VegasEroad094.001
+    400076: VegasSroad017
+    400078: VegasSroad017.001
+    400080: vgsSairportland13.001
+    2100000: Alumox64b_NONE
+    2100002: Alumox64b
+    2100004: lampost_16clr
+    2100006: Material.001
+    2100008: kelias
+    2100010: vegaspavement2_256
+    2100012: hiwayend_256.001
+    2100014: hiwaymidlle_256.003
+    2100016: hiwayinside5_256.002
+    2100018: des_dirt1.004
+    2100020: dt_road_stoplinea
+    2100022: dt_road
+    2100024: hiwayinside3_256.001
+    2100026: vegasroad1_256
+    2100028: des_dirt1
+    2100030: hiwaymidlle_256.002
+    2100032: des_dirt1.001
+    2100034: hiwayend_256
+    2100036: hiwayinside3_256
+    2100038: hiwayinside5_256.001
+    2100040: BLOCK
+    2100042: vegasroad1_256.001
+    2100044: ws_sub_pen_conc
+    2100046: vegaspavement2_256.001
+    2100048: highshopwall1256
+    2100050: vegasroad1_256.002
+    2100052: vegaspavement2_256.002
+    2300000: lempa
+    2300002: lempa.001
+    2300004: lempa.001_lempa.000
+    2300006: lempa.001_lempa.001
+    2300008: lempa.001_lempa.002
+    2300010: lempa.001_lempa.003
+    2300012: lempa.002
+    2300014: lempa.002_lempa.000
+    2300016: lempa.002_lempa.001
+    2300018: lempa.002_lempa.002
+    2300020: lempa.002_lempa.003
+    2300022: lempa.003
+    2300024: lempa.003_lempa.000
+    2300026: lempa.003_lempa.001
+    2300028: lempa.003_lempa.004
+    2300030: sub_roadright_l0
+    2300032: sub_roadright_l0.001
+    2300034: sub_roadright_l0.002
+    2300036: sub_roadright_l0.003
+    2300038: sub_roadright_l0.004
+    2300040: sub_roadright_l0.005
+    2300042: sub_roadright_l0.006
+    2300044: sub_roadright_l0.007
+    2300046: sub_roadright_l0.008
+    2300048: sub_roadright_l0.009
+    2300050: sub_roadright_l0.010
+    2300052: sub_roadright_l0.011
+    2300054: sub_roadright_l0.012
+    2300056: sub_roadright_l0.013
+    2300058: VegasEroad048
+    2300060: vegasEroad064
+    2300062: vegasEroad064.001
+    2300064: vegasEroad064.002
+    2300066: vegasEroad064.003
+    2300068: vegasEroad065
+    2300070: vegasEroad065.001
+    2300072: VegasEroad094.001
+    2300074: VegasSroad017
+    2300076: VegasSroad017.001
+    2300078: vgsSairportland13.001
+    3300000: lempa
+    3300002: lempa.001
+    3300004: lempa.001_lempa.000
+    3300006: lempa.001_lempa.001
+    3300008: lempa.001_lempa.002
+    3300010: lempa.001_lempa.003
+    3300012: lempa.002
+    3300014: lempa.002_lempa.000
+    3300016: lempa.002_lempa.001
+    3300018: lempa.002_lempa.002
+    3300020: lempa.002_lempa.003
+    3300022: lempa.003
+    3300024: lempa.003_lempa.000
+    3300026: lempa.003_lempa.001
+    3300028: lempa.003_lempa.004
+    3300030: sub_roadright_l0
+    3300032: sub_roadright_l0.001
+    3300034: sub_roadright_l0.002
+    3300036: sub_roadright_l0.003
+    3300038: sub_roadright_l0.004
+    3300040: sub_roadright_l0.005
+    3300042: sub_roadright_l0.006
+    3300044: sub_roadright_l0.007
+    3300046: sub_roadright_l0.008
+    3300048: sub_roadright_l0.009
+    3300050: sub_roadright_l0.010
+    3300052: sub_roadright_l0.011
+    3300054: sub_roadright_l0.012
+    3300056: sub_roadright_l0.013
+    3300058: VegasEroad048
+    3300060: vegasEroad064
+    3300062: vegasEroad064.001
+    3300064: vegasEroad064.002
+    3300066: vegasEroad064.003
+    3300068: vegasEroad065
+    3300070: vegasEroad065.001
+    3300072: VegasEroad094.001
+    3300074: VegasSroad017
+    3300076: VegasSroad017.001
+    3300078: vgsSairportland13.001
+    4300000: sub_roadright_l0.013
+    4300002: sub_roadright_l0.012
+    4300004: lempa
+    4300006: lempa.002_lempa.000
+    4300008: vegasEroad064.002
+    4300010: VegasSroad017
+    4300012: sub_roadright_l0.006
+    4300014: lempa.001_lempa.001
+    4300016: lempa.001
+    4300018: sub_roadright_l0.001
+    4300020: vegasEroad065
+    4300022: lempa.002
+    4300024: sub_roadright_l0.003
+    4300026: vgsSairportland13.001
+    4300028: lempa.001_lempa.000
+    4300030: lempa.003_lempa.004
+    4300032: vegasEroad064
+    4300034: sub_roadright_l0.004
+    4300036: lempa.002_lempa.001
+    4300038: lempa.003_lempa.000
+    4300040: lempa.002_lempa.003
+    4300042: sub_roadright_l0
+    4300044: VegasEroad048
+    4300046: vegasEroad065.001
+    4300048: sub_roadright_l0.007
+    4300050: vegasEroad064.003
+    4300052: sub_roadright_l0.002
+    4300054: VegasEroad094.001
+    4300056: vegasEroad064.001
+    4300058: sub_roadright_l0.005
+    4300060: lempa.001_lempa.002
+    4300062: VegasSroad017.001
+    4300064: sub_roadright_l0.008
+    4300066: sub_roadright_l0.009
+    4300068: lempa.003_lempa.001
+    4300070: lempa.001_lempa.003
+    4300072: lempa.003
+    4300074: lempa.002_lempa.002
+    4300076: sub_roadright_l0.010
+    4300078: sub_roadright_l0.011
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Alumox64b
+    second: {fileID: 2100000, guid: b64bb6b29f6f4ff4b9c62e7c86567283, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Alumox64b_NONE
+    second: {fileID: 2100000, guid: 90c74083c64a2b94580d77075bb67163, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BLOCK
+    second: {fileID: 2100000, guid: cedb1344fcdc9764a97caee0e2c5f679, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.001
+    second: {fileID: 2100000, guid: 5f92025400194e547af3e7a5dc83284f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: des_dirt1
+    second: {fileID: 2100000, guid: 82e535e7aff5a8848a9fa54e65d7a6c2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: des_dirt1.001
+    second: {fileID: 2100000, guid: ec042be9ebb90f64eba2eeaaafb186aa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: des_dirt1.004
+    second: {fileID: 2100000, guid: ea59c082314257847b0bb6e9d0039856, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dt_road
+    second: {fileID: 2100000, guid: 1a59e4272e1b756469054743d1c9bd03, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dt_road_stoplinea
+    second: {fileID: 2100000, guid: ab179964ca75f51438b60091370592ef, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: highshopwall1256
+    second: {fileID: 2100000, guid: ef6e561fb39fec14c86ca31eca7b791e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hiwayend_256
+    second: {fileID: 2100000, guid: 7f3eaea6b94333040bebeea9296bebff, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hiwayend_256.001
+    second: {fileID: 2100000, guid: 7f3eaea6b94333040bebeea9296bebff, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hiwayinside3_256
+    second: {fileID: 2100000, guid: f20cb801a4ace854783e581c09bfc292, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hiwayinside3_256.001
+    second: {fileID: 2100000, guid: f20cb801a4ace854783e581c09bfc292, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hiwayinside5_256.001
+    second: {fileID: 2100000, guid: 27b6f998b3bf4cd458fe19a145a4d901, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hiwayinside5_256.002
+    second: {fileID: 2100000, guid: 27b6f998b3bf4cd458fe19a145a4d901, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hiwaymidlle_256.002
+    second: {fileID: 2100000, guid: d461fd7d6d38365428c7cf4356479aef, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hiwaymidlle_256.003
+    second: {fileID: 2100000, guid: d461fd7d6d38365428c7cf4356479aef, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kelias
+    second: {fileID: 2100000, guid: 6ebc70f085737b6438c642bd76e67587, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lampost_16clr
+    second: {fileID: 2100000, guid: da7d07d9c5feb664789da881f298946e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vegaspavement2_256
+    second: {fileID: 2100000, guid: 2a2dae6abace0624bae915021eaf200d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vegaspavement2_256.001
+    second: {fileID: 2100000, guid: 2a2dae6abace0624bae915021eaf200d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vegaspavement2_256.002
+    second: {fileID: 2100000, guid: 2a2dae6abace0624bae915021eaf200d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vegasroad1_256
+    second: {fileID: 2100000, guid: 028833b6921b8d243badda8c4fcd974a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vegasroad1_256.001
+    second: {fileID: 2100000, guid: 028833b6921b8d243badda8c4fcd974a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vegasroad1_256.002
+    second: {fileID: 2100000, guid: 028833b6921b8d243badda8c4fcd974a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ws_sub_pen_conc
+    second: {fileID: 2100000, guid: 25079bca1127bde4d813b0187875d66c, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

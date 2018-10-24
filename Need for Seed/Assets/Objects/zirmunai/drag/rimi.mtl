@@ -1,0 +1,57 @@
+# Blender MTL File: 'None'
+# Material Count: 5
+
+newmtl Logos
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.000940 0.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\Users\Lukas\Desktop\for nfs\asphalt.png
+
+newmtl entrance
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.015038 0.000000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\Users\Lukas\Desktop\for nfs\ws_shopfront1a.bmp
+
+newmtl others
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.550729 0.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\Users\Lukas\Desktop\for nfs\vgnburgwal6_256.bmp
+
+newmtl wall
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.005080 0.640000 0.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\Users\Lukas\Desktop\for nfs\hilcouwall2.bmp
+
+newmtl windows
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\Users\Lukas\Desktop\for nfs\ws_ed_shop2.bmp

@@ -1,0 +1,797 @@
+fileFormatVersion: 2
+guid: a0b783766a6d14d43ae8d35ecc159247
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: sub_roadright_l0
+    100004: sub_roadright_l0.001
+    100006: sub_roadright_l0.002
+    100008: sub_roadright_l0.003
+    100010: sub_roadright_l0.004
+    100012: sub_roadright_l0.005
+    100014: sub_roadright_l0.006
+    100016: sub_roadright_l0.007
+    100018: sub_roadright_l0.008
+    100020: sub_roadright_l0.009
+    100022: sub_roadright_l0.010
+    100024: sub_roadright_l0.011
+    100026: sub_roadright_l0.012
+    100028: sub_roadright_l0.013
+    100030: sub_roadright_l0.014
+    100032: sub_roadright_l0.015
+    100034: sub_roadright_l0.016
+    100036: sub_roadright_l0.017
+    100038: sub_roadright_l0.018
+    100040: sub_roadright_l0.019
+    100042: vegasNroad31
+    100044: vegasSedge22
+    100046: vegasSedge25
+    100048: vegasSedge29
+    100050: vegasSedge29b
+    100052: VegasSland41
+    100054: VegasSland44
+    100056: VegasSroad017
+    100058: VegasSroad017.001
+    100060: vgsSairportland13.001
+    100062: vgsSspagjun02
+    100064: vgsSspagjun03
+    100066: vgsSspagjun04
+    100068: vgsSspagjun05
+    100070: vgsSspagjun06
+    100072: vgsSspagjun06b
+    100074: vgsSspagjun06c
+    100076: vgsSspagjun07.001
+    100078: vgsSspagjun09
+    100080: vgsSspagjun09b
+    100082: vgsSspagjun10
+    100084: VegasSroad017.002
+    400000: //RootNode
+    400002: sub_roadright_l0
+    400004: sub_roadright_l0.001
+    400006: sub_roadright_l0.002
+    400008: sub_roadright_l0.003
+    400010: sub_roadright_l0.004
+    400012: sub_roadright_l0.005
+    400014: sub_roadright_l0.006
+    400016: sub_roadright_l0.007
+    400018: sub_roadright_l0.008
+    400020: sub_roadright_l0.009
+    400022: sub_roadright_l0.010
+    400024: sub_roadright_l0.011
+    400026: sub_roadright_l0.012
+    400028: sub_roadright_l0.013
+    400030: sub_roadright_l0.014
+    400032: sub_roadright_l0.015
+    400034: sub_roadright_l0.016
+    400036: sub_roadright_l0.017
+    400038: sub_roadright_l0.018
+    400040: sub_roadright_l0.019
+    400042: vegasNroad31
+    400044: vegasSedge22
+    400046: vegasSedge25
+    400048: vegasSedge29
+    400050: vegasSedge29b
+    400052: VegasSland41
+    400054: VegasSland44
+    400056: VegasSroad017
+    400058: VegasSroad017.001
+    400060: vgsSairportland13.001
+    400062: vgsSspagjun02
+    400064: vgsSspagjun03
+    400066: vgsSspagjun04
+    400068: vgsSspagjun05
+    400070: vgsSspagjun06
+    400072: vgsSspagjun06b
+    400074: vgsSspagjun06c
+    400076: vgsSspagjun07.001
+    400078: vgsSspagjun09
+    400080: vgsSspagjun09b
+    400082: vgsSspagjun10
+    400084: VegasSroad017.002
+    2100000: hiwaymidlle_256.015
+    2100002: hiwayinside5_256.008
+    2100004: concreteblock_256.006
+    2100006: hiwayoutside_256.006
+    2100008: des_scrub1
+    2100010: hiwaymidlle_256.012
+    2100012: hiwayinside3_256.004
+    2100014: hiwayend_256.003
+    2100016: hiwayinside5_256.005
+    2100018: hiwayinside4_256.007
+    2100020: Alumox64b
+    2100022: hiwayoutside_256
+    2100024: hiwayinside5_256
+    2100026: hiwayinside2_256
+    2100028: hiwayinsideblend1_256
+    2100030: hiwaymidlle_256
+    2100032: kelias
+    2100034: des_dirt1.003
+    2100036: des_dirt1.002
+    2100038: highshopwall1256.005
+    2100040: ws_sub_pen_conc.005
+    2100042: vegaspavement2_256.003
+    2100044: BLOCK.003
+    2100046: sw_tunnel01
+    2100048: lightcover1
+    2100050: vegasdirtypave2_256
+    2100052: vegasdirtyroad2_256
+    2100054: vegasroad1_256
+    2100056: desgreengrass.001
+    2100058: desgrasandblend
+    2100060: highshopwall1256.004
+    2100062: ws_sub_pen_conc.004
+    2100064: hiwaymidlle_256.010
+    2100066: hiwayinside4_256.006
+    2100068: hiwayinside5_256.003
+    2100070: hiwayinside3_256.003
+    2100072: hiwayend_256.002
+    2100074: highshopwall1256.003
+    2100076: ws_sub_pen_conc.003
+    2100078: BLOCK.002
+    2100080: hiwaymidlle_256.009
+    2100082: hiwayinside4_256.005
+    2100084: hiwayinside3_256.002
+    2100086: hiwaymidlle_256.008
+    2100088: hiwayinside5_256.002
+    2100090: concreteblock_256.004
+    2100092: hiwayoutside_256.004
+    2100094: hiwayinside2_256.005
+    2100096: highshopwall1256.002
+    2100098: ws_sub_pen_conc.002
+    2100100: BLOCK.001
+    2100102: hiwaymidlle_256.007
+    2100104: hiwayinside4_256.004
+    2100106: hiwayinside2_256.004
+    2100108: highshopwall1256.001
+    2100110: ws_sub_pen_conc.001
+    2100112: vegaspavement2_256.001
+    2100114: BLOCK
+    2100116: hiwaymidlle_256.006
+    2100118: hiwayinside2_256.003
+    2100120: hiwayinsideblend1_256.001
+    2100122: hiwaymidlle_256.005
+    2100124: hiwayinside3_256.001
+    2100126: hiwayend_256.001
+    2100128: highshopwall1256
+    2100130: ws_sub_pen_conc
+    2100132: hiwayinside5_256.001
+    2100134: hiwaymidlle_256.004
+    2100136: hiwayinside4_256.003
+    2100138: hiwayinside3_256
+    2100140: hiwayend_256
+    2100142: concreteblock_256.003
+    2100144: hiwayoutside_256.003
+    2100146: hiwaymidlle_256.003
+    2100148: hiwayinside4_256.002
+    2100150: hiwayinside2_256.002
+    2100152: concreteblock_256.002
+    2100154: hiwayoutside_256.002
+    2100156: hiwaymidlle_256.002
+    2100158: hiwayinside4_256.001
+    2100160: hiwayinsideblend2_256
+    2100162: hiwayinside2_256.001
+    2100164: concreteblock_256.001
+    2100166: hiwayoutside_256.001
+    2100168: hiwaymidlle_256.001
+    2100170: hiwayinside4_256
+    2300000: sub_roadright_l0
+    2300002: sub_roadright_l0.001
+    2300004: sub_roadright_l0.002
+    2300006: sub_roadright_l0.003
+    2300008: sub_roadright_l0.004
+    2300010: sub_roadright_l0.005
+    2300012: sub_roadright_l0.006
+    2300014: sub_roadright_l0.007
+    2300016: sub_roadright_l0.008
+    2300018: sub_roadright_l0.009
+    2300020: sub_roadright_l0.010
+    2300022: sub_roadright_l0.011
+    2300024: sub_roadright_l0.012
+    2300026: sub_roadright_l0.013
+    2300028: sub_roadright_l0.014
+    2300030: sub_roadright_l0.015
+    2300032: sub_roadright_l0.016
+    2300034: sub_roadright_l0.017
+    2300036: sub_roadright_l0.018
+    2300038: sub_roadright_l0.019
+    2300040: vegasNroad31
+    2300042: vegasSedge22
+    2300044: vegasSedge25
+    2300046: vegasSedge29
+    2300048: vegasSedge29b
+    2300050: VegasSland41
+    2300052: VegasSland44
+    2300054: VegasSroad017
+    2300056: VegasSroad017.001
+    2300058: vgsSairportland13.001
+    2300060: vgsSspagjun02
+    2300062: vgsSspagjun03
+    2300064: vgsSspagjun04
+    2300066: vgsSspagjun05
+    2300068: vgsSspagjun06
+    2300070: vgsSspagjun06b
+    2300072: vgsSspagjun06c
+    2300074: vgsSspagjun07.001
+    2300076: vgsSspagjun09
+    2300078: vgsSspagjun09b
+    2300080: vgsSspagjun10
+    2300082: VegasSroad017.002
+    3300000: sub_roadright_l0
+    3300002: sub_roadright_l0.001
+    3300004: sub_roadright_l0.002
+    3300006: sub_roadright_l0.003
+    3300008: sub_roadright_l0.004
+    3300010: sub_roadright_l0.005
+    3300012: sub_roadright_l0.006
+    3300014: sub_roadright_l0.007
+    3300016: sub_roadright_l0.008
+    3300018: sub_roadright_l0.009
+    3300020: sub_roadright_l0.010
+    3300022: sub_roadright_l0.011
+    3300024: sub_roadright_l0.012
+    3300026: sub_roadright_l0.013
+    3300028: sub_roadright_l0.014
+    3300030: sub_roadright_l0.015
+    3300032: sub_roadright_l0.016
+    3300034: sub_roadright_l0.017
+    3300036: sub_roadright_l0.018
+    3300038: sub_roadright_l0.019
+    3300040: vegasNroad31
+    3300042: vegasSedge22
+    3300044: vegasSedge25
+    3300046: vegasSedge29
+    3300048: vegasSedge29b
+    3300050: VegasSland41
+    3300052: VegasSland44
+    3300054: VegasSroad017
+    3300056: VegasSroad017.001
+    3300058: vgsSairportland13.001
+    3300060: vgsSspagjun02
+    3300062: vgsSspagjun03
+    3300064: vgsSspagjun04
+    3300066: vgsSspagjun05
+    3300068: vgsSspagjun06
+    3300070: vgsSspagjun06b
+    3300072: vgsSspagjun06c
+    3300074: vgsSspagjun07.001
+    3300076: vgsSspagjun09
+    3300078: vgsSspagjun09b
+    3300080: vgsSspagjun10
+    3300082: VegasSroad017.002
+    4300000: vegasSedge29
+    4300002: vegasSedge22
+    4300004: vgsSspagjun02
+    4300006: sub_roadright_l0.019
+    4300008: sub_roadright_l0.018
+    4300010: sub_roadright_l0.017
+    4300012: sub_roadright_l0.016
+    4300014: sub_roadright_l0.015
+    4300016: sub_roadright_l0.014
+    4300018: sub_roadright_l0.013
+    4300020: sub_roadright_l0.012
+    4300022: sub_roadright_l0.011
+    4300024: sub_roadright_l0.010
+    4300026: sub_roadright_l0.009
+    4300028: sub_roadright_l0.008
+    4300030: sub_roadright_l0.007
+    4300032: sub_roadright_l0.006
+    4300034: sub_roadright_l0.005
+    4300036: sub_roadright_l0.004
+    4300038: vgsSspagjun07.001
+    4300040: VegasSroad017.001
+    4300042: VegasSroad017
+    4300044: vgsSairportland13.001
+    4300046: sub_roadright_l0
+    4300048: sub_roadright_l0.001
+    4300050: sub_roadright_l0.002
+    4300052: sub_roadright_l0.003
+    4300054: VegasSland41
+    4300056: vegasNroad31
+    4300058: vegasSedge25
+    4300060: VegasSland44
+    4300062: vgsSspagjun10
+    4300064: vgsSspagjun03
+    4300066: vegasSedge29b
+    4300068: vgsSspagjun09
+    4300070: vgsSspagjun09b
+    4300072: vgsSspagjun05
+    4300074: vgsSspagjun04
+    4300076: vgsSspagjun06
+    4300078: vgsSspagjun06b
+    4300080: vgsSspagjun06c
+    4300082: VegasSroad017.002
+    2186277476908879412: ImportLogs
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Alumox64b
+    second: {fileID: 2100000, guid: 4c107ecba2b3eaa4380b084416daeea8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BLOCK
+    second: {fileID: 2100000, guid: cedb1344fcdc9764a97caee0e2c5f679, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BLOCK.001
+    second: {fileID: 2100000, guid: cedb1344fcdc9764a97caee0e2c5f679, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BLOCK.002
+    second: {fileID: 2100000, guid: cedb1344fcdc9764a97caee0e2c5f679, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BLOCK.003
+    second: {fileID: 2100000, guid: cedb1344fcdc9764a97caee0e2c5f679, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: concreteblock_256.001
+    second: {fileID: 2100000, guid: 5b16004568fa3d24f85e46fca13d3ecc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: concreteblock_256.002
+    second: {fileID: 2100000, guid: 5b16004568fa3d24f85e46fca13d3ecc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: concreteblock_256.003
+    second: {fileID: 2100000, guid: 5b16004568fa3d24f85e46fca13d3ecc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: concreteblock_256.004
+    second: {fileID: 2100000, guid: 5b16004568fa3d24f85e46fca13d3ecc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: concreteblock_256.006
+    second: {fileID: 2100000, guid: 5b16004568fa3d24f85e46fca13d3ecc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: des_dirt1.002
+    second: {fileID: 2100000, guid: b1a184128eab4694eafe87044df58bdb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: des_dirt1.003
+    second: {fileID: 2100000, guid: ba2c667ee3c3fd44b8e2cf0bd49f963a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: des_scrub1
+    second: {fileID: 2100000, guid: 01794f21a9fcc9d448405e570e4d824e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: desgrasandblend
+    second: {fileID: 2100000, guid: c6b68b272dbd782468407c67c9c9a6f7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: desgreengrass.001
+    second: {fileID: 2100000, guid: 7c15d8a2473542c498de7ee00b96857c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: highshopwall1256
+    second: {fileID: 2100000, guid: ef6e561fb39fec14c86ca31eca7b791e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: highshopwall1256.001
+    second: {fileID: 2100000, guid: ef6e561fb39fec14c86ca31eca7b791e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: highshopwall1256.002
+    second: {fileID: 2100000, guid: ef6e561fb39fec14c86ca31eca7b791e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: highshopwall1256.003
+    second: {fileID: 2100000, guid: ef6e561fb39fec14c86ca31eca7b791e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: highshopwall1256.004
+    second: {fileID: 2100000, guid: ef6e561fb39fec14c86ca31eca7b791e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: highshopwall1256.005
+    second: {fileID: 2100000, guid: ef6e561fb39fec14c86ca31eca7b791e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hiwayend_256
+    second: {fileID: 2100000, guid: 7f3eaea6b94333040bebeea9296bebff, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hiwayend_256.001
+    second: {fileID: 2100000, guid: 7f3eaea6b94333040bebeea9296bebff, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hiwayend_256.002
+    second: {fileID: 2100000, guid: 7f3eaea6b94333040bebeea9296bebff, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hiwayend_256.003
+    second: {fileID: 2100000, guid: 7f3eaea6b94333040bebeea9296bebff, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hiwayinside2_256
+    second: {fileID: 2100000, guid: cc33b7a59cc52b54ab2b429dc1bcc1b2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hiwayinside2_256.001
+    second: {fileID: 2100000, guid: cc33b7a59cc52b54ab2b429dc1bcc1b2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hiwayinside2_256.002
+    second: {fileID: 2100000, guid: cc33b7a59cc52b54ab2b429dc1bcc1b2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hiwayinside2_256.003
+    second: {fileID: 2100000, guid: cc33b7a59cc52b54ab2b429dc1bcc1b2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hiwayinside2_256.004
+    second: {fileID: 2100000, guid: cc33b7a59cc52b54ab2b429dc1bcc1b2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hiwayinside2_256.005
+    second: {fileID: 2100000, guid: cc33b7a59cc52b54ab2b429dc1bcc1b2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hiwayinside3_256
+    second: {fileID: 2100000, guid: f20cb801a4ace854783e581c09bfc292, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hiwayinside3_256.001
+    second: {fileID: 2100000, guid: f20cb801a4ace854783e581c09bfc292, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hiwayinside3_256.002
+    second: {fileID: 2100000, guid: f20cb801a4ace854783e581c09bfc292, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hiwayinside3_256.003
+    second: {fileID: 2100000, guid: f20cb801a4ace854783e581c09bfc292, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hiwayinside3_256.004
+    second: {fileID: 2100000, guid: f20cb801a4ace854783e581c09bfc292, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hiwayinside4_256
+    second: {fileID: 2100000, guid: 2e4d501a033e74f438a08d655612634c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hiwayinside4_256.001
+    second: {fileID: 2100000, guid: 2e4d501a033e74f438a08d655612634c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hiwayinside4_256.002
+    second: {fileID: 2100000, guid: 2e4d501a033e74f438a08d655612634c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hiwayinside4_256.003
+    second: {fileID: 2100000, guid: 2e4d501a033e74f438a08d655612634c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hiwayinside4_256.004
+    second: {fileID: 2100000, guid: 2e4d501a033e74f438a08d655612634c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hiwayinside4_256.005
+    second: {fileID: 2100000, guid: 2e4d501a033e74f438a08d655612634c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hiwayinside4_256.006
+    second: {fileID: 2100000, guid: 2e4d501a033e74f438a08d655612634c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hiwayinside4_256.007
+    second: {fileID: 2100000, guid: 2e4d501a033e74f438a08d655612634c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hiwayinside5_256
+    second: {fileID: 2100000, guid: 27b6f998b3bf4cd458fe19a145a4d901, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hiwayinside5_256.001
+    second: {fileID: 2100000, guid: 27b6f998b3bf4cd458fe19a145a4d901, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hiwayinside5_256.002
+    second: {fileID: 2100000, guid: 27b6f998b3bf4cd458fe19a145a4d901, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hiwayinside5_256.003
+    second: {fileID: 2100000, guid: 27b6f998b3bf4cd458fe19a145a4d901, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hiwayinside5_256.005
+    second: {fileID: 2100000, guid: 27b6f998b3bf4cd458fe19a145a4d901, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hiwayinside5_256.008
+    second: {fileID: 2100000, guid: 27b6f998b3bf4cd458fe19a145a4d901, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hiwayinsideblend1_256
+    second: {fileID: 2100000, guid: 3bdd063c22062f245b279c9c47f10d67, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hiwayinsideblend1_256.001
+    second: {fileID: 2100000, guid: 6f4aefba51d4a114aadfeec2ca0dd7ff, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hiwayinsideblend2_256
+    second: {fileID: 2100000, guid: fc685cd2441208444b3d6c3742796946, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hiwaymidlle_256
+    second: {fileID: 2100000, guid: d461fd7d6d38365428c7cf4356479aef, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hiwaymidlle_256.001
+    second: {fileID: 2100000, guid: d461fd7d6d38365428c7cf4356479aef, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hiwaymidlle_256.002
+    second: {fileID: 2100000, guid: d461fd7d6d38365428c7cf4356479aef, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hiwaymidlle_256.003
+    second: {fileID: 2100000, guid: d461fd7d6d38365428c7cf4356479aef, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hiwaymidlle_256.004
+    second: {fileID: 2100000, guid: d461fd7d6d38365428c7cf4356479aef, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hiwaymidlle_256.005
+    second: {fileID: 2100000, guid: d461fd7d6d38365428c7cf4356479aef, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hiwaymidlle_256.006
+    second: {fileID: 2100000, guid: d461fd7d6d38365428c7cf4356479aef, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hiwaymidlle_256.007
+    second: {fileID: 2100000, guid: d461fd7d6d38365428c7cf4356479aef, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hiwaymidlle_256.008
+    second: {fileID: 2100000, guid: d461fd7d6d38365428c7cf4356479aef, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hiwaymidlle_256.009
+    second: {fileID: 2100000, guid: d461fd7d6d38365428c7cf4356479aef, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hiwaymidlle_256.010
+    second: {fileID: 2100000, guid: d461fd7d6d38365428c7cf4356479aef, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hiwaymidlle_256.012
+    second: {fileID: 2100000, guid: d461fd7d6d38365428c7cf4356479aef, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hiwaymidlle_256.015
+    second: {fileID: 2100000, guid: d461fd7d6d38365428c7cf4356479aef, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hiwayoutside_256
+    second: {fileID: 2100000, guid: 86c5cc7e5b00f854eafe55d6b780592d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hiwayoutside_256.001
+    second: {fileID: 2100000, guid: 86c5cc7e5b00f854eafe55d6b780592d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hiwayoutside_256.002
+    second: {fileID: 2100000, guid: 86c5cc7e5b00f854eafe55d6b780592d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hiwayoutside_256.003
+    second: {fileID: 2100000, guid: 86c5cc7e5b00f854eafe55d6b780592d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hiwayoutside_256.004
+    second: {fileID: 2100000, guid: 86c5cc7e5b00f854eafe55d6b780592d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hiwayoutside_256.006
+    second: {fileID: 2100000, guid: 86c5cc7e5b00f854eafe55d6b780592d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kelias
+    second: {fileID: 2100000, guid: a8ef537278ffa524f91a42939c1c744c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lightcover1
+    second: {fileID: 2100000, guid: 1bd03d75559dc6644a5c1662d3a42652, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sw_tunnel01
+    second: {fileID: 2100000, guid: 2c525b2d43ff8164786d46ee5b5df12a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vegaspavement2_256.001
+    second: {fileID: 2100000, guid: 2a2dae6abace0624bae915021eaf200d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ws_sub_pen_conc
+    second: {fileID: 2100000, guid: 25079bca1127bde4d813b0187875d66c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ws_sub_pen_conc.001
+    second: {fileID: 2100000, guid: 25079bca1127bde4d813b0187875d66c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ws_sub_pen_conc.002
+    second: {fileID: 2100000, guid: 25079bca1127bde4d813b0187875d66c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ws_sub_pen_conc.003
+    second: {fileID: 2100000, guid: 25079bca1127bde4d813b0187875d66c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ws_sub_pen_conc.004
+    second: {fileID: 2100000, guid: 25079bca1127bde4d813b0187875d66c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ws_sub_pen_conc.005
+    second: {fileID: 2100000, guid: 25079bca1127bde4d813b0187875d66c, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 0
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

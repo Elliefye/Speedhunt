@@ -1,0 +1,185 @@
+fileFormatVersion: 2
+guid: ec3874b6e56c8ee42a413966583a4558
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: door_rr_ok
+    100004: wheel
+    400000: //RootNode
+    400002: door_rr_ok
+    400004: wheel
+    2100000: mains__env_50_spec_.001
+    2100002: vehiclegeneric256__spec_.001
+    2100004: vehicletyres128__spec_
+    2100006: mains__env_50_spec_
+    2100008: remapelegantbody256__prim_env_50_spec_
+    2100010: window__env_50_spec_trans_
+    2100012: carpback__spec_
+    2100014: carplate__spec_
+    2100016: vehiclegeneric256
+    2100018: vehiclelights128__env_50_spec_FL_
+    2100020: vehiclelights128__env_50_spec_FR_
+    2100022: vehiclelights128__env_50_spec_RL_
+    2100024: vehiclegeneric256__spec_
+    2100026: vehiclegeneric256__env_14_spec_
+    2300000: door_rr_ok
+    2300002: wheel
+    2300004: //RootNode
+    3300000: door_rr_ok
+    3300002: wheel
+    3300004: //RootNode
+    4300000: wheel
+    4300002: door_rr_ok
+    2186277476908879412: ImportLogs
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: carpback__spec_
+    second: {fileID: 2100000, guid: c355d3e80c6467046b16584b719863f3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: carplate__spec_
+    second: {fileID: 2100000, guid: 46077c1a96ecb5547994be25dc9683d8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mains__env_50_spec_
+    second: {fileID: 2100000, guid: 7d81b49b959087542977ba0610fed6fd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mains__env_50_spec_.001
+    second: {fileID: 2100000, guid: 7d81b49b959087542977ba0610fed6fd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: remapelegantbody256__prim_env_50_spec_
+    second: {fileID: 2100000, guid: d219a498b2d5b1644af6dc19e155498c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vehiclegeneric256
+    second: {fileID: 2100000, guid: 1d433ded98bfdec42bac89e3eb9ebb78, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vehiclegeneric256__env_14_spec_
+    second: {fileID: 2100000, guid: 773358669e491ff4e8f91b3f0c10c6d1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vehiclegeneric256__spec_
+    second: {fileID: 2100000, guid: f33fdf608afd9ef4fa6cbd173e2ce2ae, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vehiclegeneric256__spec_.001
+    second: {fileID: 2100000, guid: d26613bc8f50f4f45885f3d5748c4013, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vehiclelights128__env_50_spec_FL_
+    second: {fileID: 2100000, guid: 0567a5806adcab24c8da8f4c0435ef02, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vehiclelights128__env_50_spec_FR_
+    second: {fileID: 2100000, guid: 0567a5806adcab24c8da8f4c0435ef02, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vehiclelights128__env_50_spec_RL_
+    second: {fileID: 2100000, guid: 0567a5806adcab24c8da8f4c0435ef02, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vehicletyres128__spec_
+    second: {fileID: 2100000, guid: c40f8f0cf471acb4cb01cc7d97b7a730, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: window__env_50_spec_trans_
+    second: {fileID: 2100000, guid: 3b19b85dee4e94c4d8df0069dc20c63f, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 0
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

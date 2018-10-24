@@ -1,0 +1,480 @@
+fileFormatVersion: 2
+guid: 2a748644fdeb20149bb7c1dd5ab6bc1f
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: aoyun1
+    100002: caoidi
+    100004: fangzi1
+    100006: hjpa20
+    100008: icbc
+    100010: kezhan
+    100012: langan
+    100014: lugan
+    100016: lupai
+    100018: //RootNode
+    100020: paishuigou
+    100022: qiaobang1
+    100024: renxingdao
+    100026: renxingdao1
+    100028: road01
+    100030: road1
+    100032: road2
+    100034: road3
+    100036: road4
+    100038: road5
+    100040: shan
+    100042: shan1
+    100044: shanqiang
+    100046: shuiniqiang
+    100048: tree17__spec_
+    100050: tree18__spec_
+    100052: tree20__spec_
+    100054: tree21__spec_
+    100056: tree22__spec_
+    100058: tree23__spec_
+    100060: tree25__spec_
+    100062: tree4__spec_
+    100064: tree5_spec_
+    100066: tree6__spec_
+    100068: xiaolu
+    100070: zhuanqiang
+    100072: collisions
+    400000: aoyun1
+    400002: caoidi
+    400004: fangzi1
+    400006: hjpa20
+    400008: icbc
+    400010: kezhan
+    400012: langan
+    400014: lugan
+    400016: lupai
+    400018: //RootNode
+    400020: paishuigou
+    400022: qiaobang1
+    400024: renxingdao
+    400026: renxingdao1
+    400028: road01
+    400030: road1
+    400032: road2
+    400034: road3
+    400036: road4
+    400038: road5
+    400040: shan
+    400042: shan1
+    400044: shanqiang
+    400046: shuiniqiang
+    400048: tree17__spec_
+    400050: tree18__spec_
+    400052: tree20__spec_
+    400054: tree21__spec_
+    400056: tree22__spec_
+    400058: tree23__spec_
+    400060: tree25__spec_
+    400062: tree4__spec_
+    400064: tree5_spec_
+    400066: tree6__spec_
+    400068: xiaolu
+    400070: zhuanqiang
+    400072: collisions
+    2100000: road5
+    2100002: xiaolu
+    2100004: road3
+    2100006: kezhan
+    2100008: road2
+    2100010: fangzi1
+    2100012: renxingdao1
+    2100014: renxingdao
+    2100016: icbc
+    2100018: road01
+    2100020: zhuanqiang
+    2100022: caodi
+    2100024: lugan
+    2100026: lupai
+    2100028: shuiniqiang
+    2100030: aoyun1
+    2100032: hjpa20
+    2100034: qiaobang1
+    2100036: langan
+    2100038: shanqiang
+    2100040: paishuigou
+    2100042: road4
+    2100044: road1
+    2100046: tree25__spec_
+    2100048: tree20__spec_
+    2100050: tree17__spec_
+    2100052: tree18__spec_
+    2100054: tree4__spec_
+    2100056: tree21__spec_
+    2100058: tree22__spec_
+    2100060: tree23__spec_
+    2100062: tree5__spec_
+    2100064: tree6__spec_
+    2100066: shan1
+    2100068: shan
+    2300000: aoyun1
+    2300002: caoidi
+    2300004: fangzi1
+    2300006: hjpa20
+    2300008: icbc
+    2300010: kezhan
+    2300012: langan
+    2300014: lugan
+    2300016: lupai
+    2300018: paishuigou
+    2300020: qiaobang1
+    2300022: renxingdao
+    2300024: renxingdao1
+    2300026: road01
+    2300028: road1
+    2300030: road2
+    2300032: road3
+    2300034: road4
+    2300036: road5
+    2300038: shan
+    2300040: shan1
+    2300042: shanqiang
+    2300044: shuiniqiang
+    2300046: tree17__spec_
+    2300048: tree18__spec_
+    2300050: tree20__spec_
+    2300052: tree21__spec_
+    2300054: tree22__spec_
+    2300056: tree23__spec_
+    2300058: tree25__spec_
+    2300060: tree4__spec_
+    2300062: tree5_spec_
+    2300064: tree6__spec_
+    2300066: xiaolu
+    2300068: zhuanqiang
+    2300070: collisions
+    3300000: aoyun1
+    3300002: caoidi
+    3300004: fangzi1
+    3300006: hjpa20
+    3300008: icbc
+    3300010: kezhan
+    3300012: langan
+    3300014: lugan
+    3300016: lupai
+    3300018: paishuigou
+    3300020: qiaobang1
+    3300022: renxingdao
+    3300024: renxingdao1
+    3300026: road01
+    3300028: road1
+    3300030: road2
+    3300032: road3
+    3300034: road4
+    3300036: road5
+    3300038: shan
+    3300040: shan1
+    3300042: shanqiang
+    3300044: shuiniqiang
+    3300046: tree17__spec_
+    3300048: tree18__spec_
+    3300050: tree20__spec_
+    3300052: tree21__spec_
+    3300054: tree22__spec_
+    3300056: tree23__spec_
+    3300058: tree25__spec_
+    3300060: tree4__spec_
+    3300062: tree5_spec_
+    3300064: tree6__spec_
+    3300066: xiaolu
+    3300068: zhuanqiang
+    3300070: collisions
+    4300000: road5
+    4300002: xiaolu
+    4300004: road3
+    4300006: kezhan
+    4300008: road2
+    4300010: fangzi1
+    4300012: renxingdao1
+    4300014: renxingdao
+    4300016: icbc
+    4300018: road01
+    4300020: zhuanqiang
+    4300022: caoidi
+    4300024: lugan
+    4300026: lupai
+    4300028: shuiniqiang
+    4300030: aoyun1
+    4300032: hjpa20
+    4300034: qiaobang1
+    4300036: langan
+    4300038: shanqiang
+    4300040: paishuigou
+    4300042: road4
+    4300044: road1
+    4300046: tree25__spec_
+    4300048: tree20__spec_
+    4300050: tree17__spec_
+    4300052: tree18__spec_
+    4300054: tree4__spec_
+    4300056: tree21__spec_
+    4300058: tree22__spec_
+    4300060: tree23__spec_
+    4300062: tree5_spec_
+    4300064: tree6__spec_
+    4300066: shan1
+    4300068: shan
+    4300070: collisions
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: aoyun1
+    second: {fileID: 2100000, guid: f36fb746f617ac946ad0cd39e76984cc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: caodi
+    second: {fileID: 2100000, guid: 19cc493ba2518d144b6c7b50eb9dba7d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: fangzi1
+    second: {fileID: 2100000, guid: a27296a006e7db84698f5e01a91884ad, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hjpa20
+    second: {fileID: 2100000, guid: bc0334d9787ccfd4c836944d8c49ae1d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: icbc
+    second: {fileID: 2100000, guid: 8d9684393dc0a3843a9687b020862456, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kezhan
+    second: {fileID: 2100000, guid: ab2f6631019d2384baa7431b95e4a092, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: langan
+    second: {fileID: 2100000, guid: d7845b788e496a1409578d0bdb267f4b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lugan
+    second: {fileID: 2100000, guid: e8251e1faa45c33439186152f1abca83, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lupai
+    second: {fileID: 2100000, guid: 165960bd28a4d24478264ab14cd6ae30, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: paishuigou
+    second: {fileID: 2100000, guid: 825183d56f4b70b4c860b01ff48109ac, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: qiaobang1
+    second: {fileID: 2100000, guid: be5a8e2ee676e4840b927b0853387139, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: renxingdao
+    second: {fileID: 2100000, guid: 1536f546edf8a13489aa550e7268962d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: renxingdao1
+    second: {fileID: 2100000, guid: df2dd551764170c4c84b5f9304101bdf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: road01
+    second: {fileID: 2100000, guid: 48b02a7577af3b2489c79270926f5904, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: road1
+    second: {fileID: 2100000, guid: 67d6ef83744ba3a4f9624561f96c41b2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: road2
+    second: {fileID: 2100000, guid: 55aac3b40716d8c4c90bbf2a906ec7fd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: road3
+    second: {fileID: 2100000, guid: 230f039fad3665e4bbbc0ab85180497f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: road4
+    second: {fileID: 2100000, guid: bcae72cabc6e25140b391ac076d8dac6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: road5
+    second: {fileID: 2100000, guid: 81f3a0cb4544a4a408dde5bdfb5cddd7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: shan
+    second: {fileID: 2100000, guid: e9332086d7b285c44a6ff407e6cdcbc6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: shan1
+    second: {fileID: 2100000, guid: 9e019c46c826cd44893e828f899dc689, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: shanqiang
+    second: {fileID: 2100000, guid: 8345b211c2a8b644c837499259ee2080, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: shuiniqiang
+    second: {fileID: 2100000, guid: be345d8ad6ce05340a1fe9eebd8bc516, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tree17__spec_
+    second: {fileID: 2100000, guid: 28f43d72d01332b4b87c4403a5a389e6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tree18__spec_
+    second: {fileID: 2100000, guid: 5ceac3bf692f8514f90fe47f557f0c71, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tree20__spec_
+    second: {fileID: 2100000, guid: 4b3d4334daa3f074fb79c5f4870d72a9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tree21__spec_
+    second: {fileID: 2100000, guid: d80b6d19600276546bc357a418a5388a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tree22__spec_
+    second: {fileID: 2100000, guid: 2ec837fe8d50f9b428226be84a69b9fa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tree23__spec_
+    second: {fileID: 2100000, guid: ede8a19b5de7939429ba445cec1c2a6f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tree25__spec_
+    second: {fileID: 2100000, guid: 017ea47df4962544c8eb1464400e4388, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tree4__spec_
+    second: {fileID: 2100000, guid: 22e64e9d78a12524ca55f81413695cd0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tree5__spec_
+    second: {fileID: 2100000, guid: 49a40dd7dead9d94ea312b772f332d8d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tree6__spec_
+    second: {fileID: 2100000, guid: 5811bee939dbb1640bbc1ee617743f88, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: xiaolu
+    second: {fileID: 2100000, guid: 69b4c159a3097784385b7b0b5dd898d8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: zhuanqiang
+    second: {fileID: 2100000, guid: f76dc6d1a71066f49aa0e251ced5ca6d, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

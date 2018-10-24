@@ -1,0 +1,223 @@
+fileFormatVersion: 2
+guid: fcbfe8fd16d4da6408d226292a255530
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: car_LOD0
+    100004: car_LOD1
+    100006: car_LOD2
+    100008: car_LOD3
+    100010: Collision
+    100012: Shadow
+    400000: //RootNode
+    400002: car_LOD0
+    400004: car_LOD1
+    400006: car_LOD2
+    400008: car_LOD3
+    400010: Collision
+    400012: Shadow
+    2100000: sky_main__prim_env_3_spec_
+    2100002: sky_lights__env_3_spec_
+    2100004: Matte__FF7E7E7E
+    2100006: sky_glass__env_9_spec_trans_
+    2100008: Matte__FF000000
+    2100010: vehiclelights128__env_3_spec_FR_
+    2100012: vehiclelights128__env_3_spec_RR_
+    2100014: sky_cabin
+    2100016: vehiclelights128__env_3_spec_FL_
+    2100018: vehiclelights128__env_3_spec_RL_
+    2100020: sky_susp
+    2100022: Default_Material
+    2100024: interior
+    2100026: Matte__FFCCCCCC__spec_
+    2100028: seats
+    2300000: car_LOD0
+    2300002: car_LOD1
+    2300004: car_LOD2
+    2300006: car_LOD3
+    2300008: Collision
+    2300010: Shadow
+    3300000: car_LOD0
+    3300002: car_LOD1
+    3300004: car_LOD2
+    3300006: car_LOD3
+    3300008: Collision
+    3300010: Shadow
+    4300000: car_LOD3
+    4300002: car_LOD2
+    4300004: car_LOD1
+    4300006: Collision
+    4300008: Shadow
+    4300010: car_LOD0
+    20500000: //RootNode
+    2186277476908879412: ImportLogs
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Default_Material
+    second: {fileID: 2100000, guid: 5514b54a6654f3942ac98dead45ef49b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Matte__FF000000
+    second: {fileID: 2100000, guid: 3bc4d5626dc878245a3f7987c03744ae, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Matte__FF7E7E7E
+    second: {fileID: 2100000, guid: 13b10e6ca9a1f2c429b9cbcfeaee3366, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Matte__FFCCCCCC__spec_
+    second: {fileID: 2100000, guid: bfd70ff355165b84aa0fa868cc63650b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: interior
+    second: {fileID: 2100000, guid: 559709225845fec4e84b7cfa0aeb01f8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: license
+    second: {fileID: 2100000, guid: 874a7762d6289e24286ba3757842c155, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: seats
+    second: {fileID: 2100000, guid: 06aae5e980dd3d043a00feef2cdbed65, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sky_cabin
+    second: {fileID: 2100000, guid: 0218acc8d788ce64abfdefced9dd4f79, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sky_glass__env_9_spec_trans_
+    second: {fileID: 2100000, guid: e38c71a550b816346a143516951fb05f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sky_lights__env_3_spec_
+    second: {fileID: 2100000, guid: e858350c99dd450478179790ea5fec16, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sky_main__prim_env_3_spec_
+    second: {fileID: 2100000, guid: 82ccedcb6f82f1d4f90e0ee4e516979b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sky_susp
+    second: {fileID: 2100000, guid: d2e9475f05f50504ab7d4b218d57bbfe, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: undercar
+    second: {fileID: 2100000, guid: a1a2cf673ef9fb74e80b92864a958e84, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vehiclelights128__env_3_spec_FL_
+    second: {fileID: 2100000, guid: 163072276ff631745a7fb441dfa05269, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vehiclelights128__env_3_spec_FR_
+    second: {fileID: 2100000, guid: 163072276ff631745a7fb441dfa05269, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vehiclelights128__env_3_spec_RL_
+    second: {fileID: 2100000, guid: 163072276ff631745a7fb441dfa05269, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vehiclelights128__env_3_spec_RR_
+    second: {fileID: 2100000, guid: 163072276ff631745a7fb441dfa05269, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages:
+    - 0.25
+    - 0.125
+    - 0.01
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 0
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

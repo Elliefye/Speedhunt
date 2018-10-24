@@ -1,0 +1,221 @@
+fileFormatVersion: 2
+guid: cc57d7e6f13997e4b88df1b2c7e6f265
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: chassis_LOD0
+    100002: chassis_LOD1
+    100004: chassis_LOD2
+    100006: chassis_LOD3
+    100008: Collision
+    100010: //RootNode
+    400000: chassis_LOD0
+    400002: chassis_LOD1
+    400004: chassis_LOD2
+    400006: chassis_LOD3
+    400008: Collision
+    400010: //RootNode
+    2100000: remap__prim_env_4_spec_
+    2100002: misc2
+    2100004: badging__spec_
+    2100006: car_glass_drk
+    2100008: chassis_difuse__spec_
+    2100010: black_2
+    2100012: transitplate__spec_
+    2100014: lights__spec_
+    2100016: vehiclelights128__spec_FR_
+    2100018: vehiclelights128__spec_RR_
+    2100020: metalref__spec_
+    2100022: interior
+    2100024: Matte__FFCCCCCC
+    2100026: plastic01
+    2100028: Matte__66B9B9B9__env_7_trans_
+    2100030: black_2__spec_trans_
+    2100032: Default_Material
+    2300000: chassis_LOD0
+    2300002: chassis_LOD1
+    2300004: chassis_LOD2
+    2300006: chassis_LOD3
+    2300008: Collision
+    3300000: chassis_LOD0
+    3300002: chassis_LOD1
+    3300004: chassis_LOD2
+    3300006: chassis_LOD3
+    3300008: Collision
+    4300000: chassis_LOD3
+    4300002: chassis_LOD2
+    4300004: chassis_LOD1
+    4300006: Collision
+    4300008: chassis_LOD0
+    20500000: //RootNode
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Default_Material
+    second: {fileID: 2100000, guid: a4bb975f30ebf104183a5f036aeb4453, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Matte__66B9B9B9__env_7_trans_
+    second: {fileID: 2100000, guid: eac66f56426b8ea48bfca51299702f23, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Matte__FFCCCCCC
+    second: {fileID: 2100000, guid: dc94f5121cce0ca47b19b5b2bde63ea1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: badging__spec_
+    second: {fileID: 2100000, guid: d9fdb7e4e9caf6b4ea606c0c56770d74, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: black_2
+    second: {fileID: 2100000, guid: c3f30dfbe2069944b9aa1d0649b4cac6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: black_2__spec_trans_
+    second: {fileID: 2100000, guid: c3f30dfbe2069944b9aa1d0649b4cac6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: car_glass_drk
+    second: {fileID: 2100000, guid: af133ef2f61ee1940b069421dcc9afd5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: chassis_difuse__spec_
+    second: {fileID: 2100000, guid: 2abc19db197c9d4499b9e4687474f14b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: interior
+    second: {fileID: 2100000, guid: 889397310da537d4e81d3776a32f6ba2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lights__spec_
+    second: {fileID: 2100000, guid: 196c19c0cd3939b4c8e7bc5b06ec9edb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: metalref__spec_
+    second: {fileID: 2100000, guid: eaefcefd58f7bac4081d2b00a08a2d87, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: misc2
+    second: {fileID: 2100000, guid: f982787aa027fb644940fbdb18ec9192, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: plastic01
+    second: {fileID: 2100000, guid: 43323895827c47e4892ddeaf3f12e093, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: remap__prim_env_4_spec_
+    second: {fileID: 2100000, guid: 82e50e6b9bdcf384dbdaee844ec79431, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: transitplate__spec_
+    second: {fileID: 2100000, guid: 6f5bf7845ca8e974a9ff3edb1d84e288, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vehiclelights128__spec_FR_
+    second: {fileID: 2100000, guid: 024dde52b2968c14c9d32e1c6033138e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vehiclelights128__spec_RR_
+    second: {fileID: 2100000, guid: 024dde52b2968c14c9d32e1c6033138e, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages:
+    - 0.25
+    - 0.125
+    - 0.01
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,87 @@
+# Blender MTL File: 'None'
+# Material Count: 8
+
+newmtl Cladding_Stucco_White
+Ns 94.117647
+Ka 0.000000 0.000000 0.000000
+Kd 0.968627 0.968627 0.968627
+Ks 0.330000 0.330000 0.330000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\Users\Lukas\Desktop\for nfs\lidl\Cladding_Stucco_White.jpg
+
+newmtl Color_M00
+Ns 94.117647
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.330000 0.330000 0.330000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\Users\Lukas\Desktop\for nfs\lidl\Translucent_Glass_Sky_Reflection.jpg
+
+newmtl Color_M02
+Ns 94.117647
+Ka 0.000000 0.000000 0.000000
+Kd 0.666667 0.635294 0.635294
+Ks 0.330000 0.330000 0.330000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl Color_M06
+Ns 94.117647
+Ka 0.000000 0.000000 0.000000
+Kd 0.337255 0.337255 0.337255
+Ks 0.330000 0.330000 0.330000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl Metal_Corrugated_Shiny
+Ns 94.117647
+Ka 0.000000 0.000000 0.000000
+Kd 0.756863 0.756863 0.756863
+Ks 0.330000 0.330000 0.330000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\Users\Lukas\Desktop\for nfs\lidl\Metal_Corrugated_Shiny.jpg
+
+newmtl Translucent_Glass_Sky_Reflection
+Ns 94.117647
+Ka 0.000000 0.000000 0.000000
+Kd 0.694118 0.760784 0.800000
+Ks 0.330000 0.330000 0.330000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 0.310000
+illum 2
+map_Kd C:\Users\Lukas\Desktop\for nfs\lidl\Translucent_Glass_Sky_Reflection.jpg
+
+newmtl _Chris_Shoe_Sole_1
+Ns 94.117647
+Ka 0.000000 0.000000 0.000000
+Kd 0.356863 0.345098 0.345098
+Ks 0.330000 0.330000 0.330000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl susp_ceiling
+Ns 94.117647
+Ka 0.000000 0.000000 0.000000
+Kd 0.960784 0.952941 0.933333
+Ks 0.330000 0.330000 0.330000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\Users\Lukas\Desktop\for nfs\lidl\susp_ceiling.jpg

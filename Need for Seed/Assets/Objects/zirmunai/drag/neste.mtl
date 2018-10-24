@@ -1,0 +1,90 @@
+# Blender MTL File: 'None'
+# Material Count: 8
+
+newmtl Cardboard.001
+Ns 94.117647
+Ka 0.000000 0.000000 0.000000
+Kd 0.741176 0.545098 0.298039
+Ks 0.330000 0.330000 0.330000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\Users\Lukas\Desktop\for nfs\neste\Cardboard.jpg
+
+newmtl Plastic_Red.001
+Ns 94.117647
+Ka 0.000000 0.000000 0.000000
+Kd 0.960784 0.494118 0.003922
+Ks 0.330000 0.330000 0.330000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\Users\Lukas\Desktop\for nfs\neste\Plastic_Red.jpg
+
+newmtl Resin_Blue.001
+Ns 94.117647
+Ka 0.000000 0.000000 0.000000
+Kd 0.670588 0.823529 0.945098
+Ks 0.330000 0.330000 0.330000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\Users\Lukas\Desktop\for nfs\neste\Resin_Blue.jpg
+
+newmtl Resin_Blue.001_Resin_Blue.jpg.001
+Ns 94.117647
+Ka 0.000000 0.000000 0.000000
+Kd 0.670588 0.823529 0.945098
+Ks 0.330000 0.330000 0.330000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\Users\Lukas\Desktop\for nfs\neste\Resin_Blue.jpg
+
+newmtl Resin_Turquoise
+Ns 94.117647
+Ka 0.000000 0.000000 0.000000
+Kd 0.458824 0.854902 0.874510
+Ks 0.330000 0.330000 0.330000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\Users\Lukas\Desktop\for nfs\neste\Resin_Turquoise.jpg
+
+newmtl Wax_01
+Ns 94.117647
+Ka 0.000000 0.000000 0.000000
+Kd 0.980392 0.835294 0.639216
+Ks 0.330000 0.330000 0.330000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\Users\Lukas\Desktop\for nfs\neste\Wax_01.jpg
+
+newmtl Wax_02.001
+Ns 94.117647
+Ka 0.000000 0.000000 0.000000
+Kd 0.678431 0.800000 0.639216
+Ks 0.330000 0.330000 0.330000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\Users\Lukas\Desktop\for nfs\neste\Wax_02.jpg
+
+newmtl _auto_.001
+Ns 94.117647
+Ka 0.000000 0.000000 0.000000
+Kd 0.262745 0.247059 0.235294
+Ks 0.330000 0.330000 0.330000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\Users\Lukas\Desktop\for nfs\neste\_auto_.jpg

@@ -1,0 +1,306 @@
+fileFormatVersion: 2
+guid: d64ac7ee509cd324bb2c52ce4eff2995
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: body_LOD0
+    100002: body_LOD1
+    100004: body_LOD2
+    100006: body_LOD3
+    100008: //RootNode
+    100010: Collision
+    400000: body_LOD0
+    400002: body_LOD1
+    400004: body_LOD2
+    400006: body_LOD3
+    400008: //RootNode
+    400010: Collision
+    2100000: remapflashbody256__prim_env_4_spec_
+    2100002: Matte__FF0D0D0D__spec_
+    2100004: generic__spec_
+    2100006: Matte__FF000000__spec_
+    2100008: Matte__FF000000
+    2100010: Matte__FFFFFFFF__spec_
+    2100012: civie_bottom__spec_
+    2100014: numar
+    2100016: light__spec_trans_
+    2100018: yibiaoban4__spec_
+    2100020: carbon__spec_
+    2100022: engine__spec_
+    2100024: light__spec_
+    2100026: Matte__FF141414__spec_
+    2100028: mdsh__spec_
+    2100030: engine2__spec_
+    2100032: stc_350z_tissu08__spec_
+    2100034: yibiaoban3__spec_
+    2100036: be_bamperiu
+    2100038: Matte__6E000000__spec_trans_
+    2100040: Matte__FFFF3C00__spec_RR_
+    2100042: Matte__FFB9FF00__spec_RL_
+    2100044: vehiclelights128__spec_FR_
+    2100046: yibiaoban__spec_
+    2100048: yibiaoban2__spec_
+    2100050: seat00__spec_
+    2100052: stc_350z_tissu09__spec_
+    2100054: fxpmomo__spec_
+    2100056: yibiao01__spec_
+    2100058: psnlog__spec_
+    2100060: Default_Material
+    2300000: body_LOD0
+    2300002: body_LOD1
+    2300004: body_LOD2
+    2300006: body_LOD3
+    2300008: Collision
+    3300000: body_LOD0
+    3300002: body_LOD1
+    3300004: body_LOD2
+    3300006: body_LOD3
+    3300008: Collision
+    4300000: body_LOD3
+    4300002: body_LOD2
+    4300004: body_LOD1
+    4300006: body_LOD0
+    4300008: Collision
+    20500000: //RootNode
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Default_Material
+    second: {fileID: 2100000, guid: c337c6664c57ee843b84102668c08cb5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Matte__6E000000__spec_trans_
+    second: {fileID: 2100000, guid: 9f404fdf7276320488419c418b2c35c3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Matte__FF000000
+    second: {fileID: 2100000, guid: 83c4959b738ba814dba13429aa470719, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Matte__FF000000__spec_
+    second: {fileID: 2100000, guid: 60406d0116cc7134cb112ba0f6a04703, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Matte__FF0D0D0D__spec_
+    second: {fileID: 2100000, guid: 71325de201afa9741adf485df3974203, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Matte__FF141414__spec_
+    second: {fileID: 2100000, guid: e653219e6039a7c48816f904b75e2c62, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Matte__FFB9FF00__spec_RL_
+    second: {fileID: 2100000, guid: c1c8b10772152074ca93eb26f270cc9b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Matte__FFFF3C00__spec_RR_
+    second: {fileID: 2100000, guid: 9df6fe165be080144a38f6bc5515f961, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Matte__FFFFFFFF__spec_
+    second: {fileID: 2100000, guid: f0c55a54d405eea41aa4de186dfe90ff, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: be_bamperiu
+    second: {fileID: 2100000, guid: c8f95f218f48ef640ba38d17b7684b90, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: carbon__spec_
+    second: {fileID: 2100000, guid: ec882403e0497fd44b0814c456a8ef56, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: civie_bottom__spec_
+    second: {fileID: 2100000, guid: fe39e07cc8a544341b09592aeeb33fdf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: engine2__spec_
+    second: {fileID: 2100000, guid: d16528917f5efce44931a969e304023b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: engine__spec_
+    second: {fileID: 2100000, guid: 4d3b97613f065e14c9ddeec7d28b31ff, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: fxpmomo__spec_
+    second: {fileID: 2100000, guid: 762d92e4e7ae91743bf4d6dfce91bb37, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: generic__spec_
+    second: {fileID: 2100000, guid: aba51ed8ad4c6404ba46639a57e43294, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: light__spec_
+    second: {fileID: 2100000, guid: e8d76b97e1225bd49aee402cceb2f08f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: light__spec_trans_
+    second: {fileID: 2100000, guid: e8d76b97e1225bd49aee402cceb2f08f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mdsh__spec_
+    second: {fileID: 2100000, guid: 89c96fbbe1537a648a4d5346e3b4b47a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: numar
+    second: {fileID: 2100000, guid: b973874c2799327499d04543371277dc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: psnlog__spec_
+    second: {fileID: 2100000, guid: 0f81d6fdc34c0754eb7dfd94c37b1a62, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: remapflashbody256__prim_env_4_spec_
+    second: {fileID: 2100000, guid: d94e6770b6df05746bce05ea1fe8bfb6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: seat00__spec_
+    second: {fileID: 2100000, guid: c6c456da35ad7c748961bc134a8994e6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: stc_350z_tissu08__spec_
+    second: {fileID: 2100000, guid: 63cb9000c19a07c4b8ad9e9d0d42377e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: stc_350z_tissu09__spec_
+    second: {fileID: 2100000, guid: 504b0c4cdb907d64bb26201034515e37, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vehiclelights128__spec_FR_
+    second: {fileID: 2100000, guid: a14cf6b4cd73a71428b66e6067be8f38, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: yibiao01__spec_
+    second: {fileID: 2100000, guid: b7834ec80e888754d99664853bf3be9a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: yibiaoban2__spec_
+    second: {fileID: 2100000, guid: 296d2f1736c4908478a9be6b4cacc746, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: yibiaoban3__spec_
+    second: {fileID: 2100000, guid: 5b80593238e9ed24fb6edab8ca05e430, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: yibiaoban4__spec_
+    second: {fileID: 2100000, guid: 86b9aa654ef7c3347a00d62fd07785a2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: yibiaoban__spec_
+    second: {fileID: 2100000, guid: 2e2b76339e08aa84492ab8fc08af4367, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages:
+    - 0.25
+    - 0.125
+    - 0.0625
+    - 0.01
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

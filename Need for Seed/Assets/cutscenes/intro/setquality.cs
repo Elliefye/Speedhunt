@@ -1,11 +1,11 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.PostProcessing;
+//using UnityEngine.PostProcessing;
 public class setquality : MonoBehaviour {
 
 	// Use this for initialization
-	public PostProcessingProfile ppProfile;
+/*	public PostProcessingProfile ppProfile;
 	void OnEnable () {
 		if(1.0f / Time.deltaTime <30)
 		{
@@ -21,5 +21,5 @@ public class setquality : MonoBehaviour {
 				//ppProfile.userLut.enabled=false;
 			}
 		}
-	}
+	}*/
 }

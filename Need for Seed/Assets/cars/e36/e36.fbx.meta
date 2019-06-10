@@ -9,12 +9,18 @@ ModelImporter:
     100006: chassis_LOD3
     100008: Collision
     100010: //RootNode
+    100012: atbulinis
+    100014: stopai
+    100016: trumpos
     400000: chassis_LOD0
     400002: chassis_LOD1
     400004: chassis_LOD2
     400006: chassis_LOD3
     400008: Collision
     400010: //RootNode
+    400012: atbulinis
+    400014: stopai
+    400016: trumpos
     2100000: remap__prim_env_4_spec_
     2100002: misc2
     2100004: badging__spec_
@@ -37,16 +43,25 @@ ModelImporter:
     2300004: chassis_LOD2
     2300006: chassis_LOD3
     2300008: Collision
+    2300010: atbulinis
+    2300012: stopai
+    2300014: trumpos
     3300000: chassis_LOD0
     3300002: chassis_LOD1
     3300004: chassis_LOD2
     3300006: chassis_LOD3
     3300008: Collision
+    3300010: atbulinis
+    3300012: stopai
+    3300014: trumpos
     4300000: chassis_LOD3
     4300002: chassis_LOD2
     4300004: chassis_LOD1
     4300006: Collision
     4300008: chassis_LOD0
+    4300010: stopai
+    4300012: trumpos
+    4300014: atbulinis
     20500000: //RootNode
   externalObjects:
   - first:
@@ -170,6 +185,7 @@ ModelImporter:
     globalScale: 1
     meshCompression: 0
     addColliders: 0
+    useSRGBMaterialColor: 1
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
@@ -194,6 +210,9 @@ ModelImporter:
     normalImportMode: 0
     tangentImportMode: 3
     normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
   importAnimation: 1
   copyAvatar: 0
   humanDescription:
@@ -208,7 +227,6 @@ ModelImporter:
     legStretch: 0.05
     feetSpacing: 0
     rootMotionBoneName: 
-    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
     hasTranslationDoF: 0
     hasExtraRoot: 0
     skeletonHasParents: 1

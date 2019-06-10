@@ -9,12 +9,14 @@ ModelImporter:
     100006: body_LOD3
     100008: //RootNode
     100010: Collision
+    100012: lights
     400000: body_LOD0
     400002: body_LOD1
     400004: body_LOD2
     400006: body_LOD3
     400008: //RootNode
     400010: Collision
+    400012: lights
     2100000: black__spec_
     2100002: glass__env_4_spec_trans_
     2100004: Matte__FF808040__prim_env_4_spec_
@@ -47,16 +49,19 @@ ModelImporter:
     2300004: body_LOD2
     2300006: body_LOD3
     2300008: Collision
+    2300010: lights
     3300000: body_LOD0
     3300002: body_LOD1
     3300004: body_LOD2
     3300006: body_LOD3
     3300008: Collision
+    3300010: lights
     4300000: body_LOD3
     4300002: body_LOD2
     4300004: body_LOD1
     4300006: body_LOD0
     4300008: Collision
+    4300010: lights
     20500000: //RootNode
   externalObjects:
   - first:
@@ -220,6 +225,7 @@ ModelImporter:
     globalScale: 1
     meshCompression: 0
     addColliders: 0
+    useSRGBMaterialColor: 1
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
@@ -244,6 +250,9 @@ ModelImporter:
     normalImportMode: 0
     tangentImportMode: 3
     normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
   importAnimation: 1
   copyAvatar: 0
   humanDescription:
@@ -258,7 +267,6 @@ ModelImporter:
     legStretch: 0.05
     feetSpacing: 0
     rootMotionBoneName: 
-    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
     hasTranslationDoF: 0
     hasExtraRoot: 0
     skeletonHasParents: 1

@@ -12,9 +12,11 @@ public class getcaught : MonoBehaviour {
 	void OnTriggerEnter (Collider other) {
 		if(other.tag == "player")
         {
-            camera.transform.LookAt(cop.transform);
-            camera.GetComponent<SmoothMouseLook>().enabled = false;
+            //camera.transform.LookAt(cop.transform);
+            //camera.GetComponent<SmoothMouseLook>().enabled = false;
             player.GetComponent<ThirdPersonCharacter>().enabled=false;
+            player.GetComponent<ThirdPersonUserControl>().enabled=false;
+            player.GetComponent<footsteps>().enabled=false;
             player.GetComponent<Rigidbody>().velocity = Vector3.zero;
             GetComponent<showDialog>().enabled = true;
         }

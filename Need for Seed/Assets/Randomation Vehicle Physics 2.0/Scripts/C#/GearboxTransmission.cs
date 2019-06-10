@@ -145,6 +145,10 @@ public class GearboxTransmission : Transmission
 	//Shift gears by the number entered
 	public void Shift(int dir)
 	{
+		if(currentGear == gears.Length - 1)
+		{
+			return;
+		}
 		if (health > 0)
 		{
 			shiftTime = shiftDelay;

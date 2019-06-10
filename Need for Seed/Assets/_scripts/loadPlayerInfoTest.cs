@@ -30,6 +30,9 @@ public class loadPlayerInfoTest : MonoBehaviour {
         Game.current.cash = cash;
         Game.current.dayNr = dayNr;
 
+		Game.current.wheelcolor = new Color(0.7f, 0.7f, 0.7f, 1f);
+		Game.current.color = new Color(0.7f, 0.7f, 0.7f, 0.5f);
+
         Game.current.mainQuest = mainQuest;
 		Game.current.sideQuest1 = sideQuest1;
 

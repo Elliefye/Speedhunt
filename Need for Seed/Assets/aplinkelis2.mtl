@@ -1,0 +1,8 @@
+newmtl des_dirt1
+map_Kd C:\Users\Public\Documents\Unity Projects\Speedhunt\Need for Seed\Assets\Bow_church_grass_gen.png
+illum 2
+
+newmtl Bow_church_grass_gen
+map_Kd C:\Users\Public\Documents\Unity Projects\Speedhunt\Need for Seed\Assets\Bow_church_grass_gen.png
+illum 2
+

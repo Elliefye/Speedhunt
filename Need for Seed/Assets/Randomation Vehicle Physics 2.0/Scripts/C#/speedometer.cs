@@ -31,6 +31,5 @@ public class speedometer : MonoBehaviour {
         rpm.transform.eulerAngles =  new Vector3(0, 0, -4 - 140 * engine.targetPitch);
         speedtext.text = (vp.velMag * 2.23694f * 1.6f).ToString("0");
         vcam.m_FrequencyGain = (vp.velMag * 2.23694f * 1.6f)/100;
-		Debug.Log(engine.targetPitch);
     }
 }

@@ -1,11 +1,11 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using TMPro; 
+//using TMPro; 
 
 public class chooseCar : MonoBehaviour {
 
-	public GameObject[] suspensions;
+/*	public GameObject[] suspensions;
 	private Suspension ackerman1;
 	private Suspension ackerman2;
 	public GameObject engine;
@@ -59,15 +59,15 @@ public class chooseCar : MonoBehaviour {
 				licenseplate.GetComponent<TextMeshPro>().text = Game.current.name;
 				if(Game.current.carId == 0) //Nissan
 				{
-					variklis.torqueCurve.AddKey(7f+Game.current.upgrade1/50, 0);
-					variklis.power = 0.5f+Game.current.upgrade2/50;
+					variklis.torqueCurve.AddKey(5f+Game.current.upgrade1/50, 0);
+					variklis.power = 0.3f+Game.current.upgrade2/50;
 		            variklis.GetMaxRPM();
-					ackerman1.ackermannFactor = 0.05f+Game.current.upgrade3/500;
-					ackerman2.ackermannFactor = 0.05f+Game.current.upgrade3/500;
 					wheel1.transform.localScale = new Vector3(0.8f, 0.8f, 1);
 					wheel2.transform.localScale = new Vector3(0.8f, 0.8f, 1);
 					wheel3.transform.localScale = new Vector3(0.8f, 0.8f, 1);
 					wheel4.transform.localScale = new Vector3(0.8f, 0.8f, 1);
+					suspensions[0].GetComponent<Suspension>().steerRangeMax = 60+Game.current.upgrade3*10;
+					suspensions[1].GetComponent<Suspension>().steerRangeMin = -60-Game.current.upgrade3*10;
                     suspensions[0].transform.localPosition = new Vector3(-0.82f, -0.269f, 1.56f);
 					suspensions[1].transform.localPosition = new Vector3(0.86f, -0.269f, 1.56f);
 					suspensions[2].transform.localPosition = new Vector3(-0.82f, -0.2690f, -1.48f);
@@ -85,15 +85,17 @@ public class chooseCar : MonoBehaviour {
 				}
 				else if(Game.current.carId == 1) //BMW
 				{
-					variklis.torqueCurve.AddKey(5f+Game.current.upgrade1/50, 0);
+					variklis.torqueCurve.AddKey(4.3f+Game.current.upgrade1/50, 1);
 					variklis.power = 0.3f+Game.current.upgrade2/50;
 		            variklis.GetMaxRPM();
-					ackerman1.ackermannFactor = 0.01f+Game.current.upgrade3/500;
-					ackerman2.ackermannFactor = 0.01f+Game.current.upgrade3/500;
 					wheel1.transform.localScale = new Vector3(0.65f, 0.65f, 1);
 					wheel2.transform.localScale = new Vector3(0.65f, 0.65f, 1);
 					wheel3.transform.localScale = new Vector3(0.65f, 0.65f, 1);
 					wheel4.transform.localScale = new Vector3(0.65f, 0.65f, 1);
+					suspensions[0].GetComponent<Suspension>().steerRangeMax = 30+Game.current.upgrade3*10;
+					suspensions[0].GetComponent<Suspension>().steerRangeMin = -30-Game.current.upgrade3*10;
+					suspensions[1].GetComponent<Suspension>().steerRangeMax = 30+Game.current.upgrade3*10;
+					suspensions[1].GetComponent<Suspension>().steerRangeMin = -30-Game.current.upgrade3*10;
                     suspensions[0].transform.localPosition = new Vector3(-0.76f, -0.27f, 1.63f); //FL
 					suspensions[1].transform.localPosition = new Vector3(0.78f, -0.27f, 1.62f); //FR
 					suspensions[2].transform.localPosition = new Vector3(-0.76f, -0.269f, -1.23f); //RL
@@ -111,15 +113,17 @@ public class chooseCar : MonoBehaviour {
 				}
 				else if(Game.current.carId == 3) //VW
 				{
-					variklis.torqueCurve.AddKey(4.8f+Game.current.upgrade1/5, 0);
-					variklis.power = 0.2f+Game.current.upgrade2/50;
+					variklis.torqueCurve.AddKey(4.3f+Game.current.upgrade1/50, 0);
+					variklis.power = 0.3f+Game.current.upgrade2/50;
 		            variklis.GetMaxRPM();
-					ackerman1.ackermannFactor = 0.03f+Game.current.upgrade3/500;
-					ackerman2.ackermannFactor = 0.03f+Game.current.upgrade3/500;
 					wheel1.transform.localScale = new Vector3(0.7f, 0.7f, 1);
 					wheel2.transform.localScale = new Vector3(0.7f, 0.7f, 1);
 					wheel3.transform.localScale = new Vector3(0.7f, 0.7f, 1);
 					wheel4.transform.localScale = new Vector3(0.7f, 0.7f, 1);
+					suspensions[0].GetComponent<Suspension>().steerRangeMax = 30+Game.current.upgrade3*10;
+					suspensions[0].GetComponent<Suspension>().steerRangeMin = -30-Game.current.upgrade3*10;
+					suspensions[1].GetComponent<Suspension>().steerRangeMax = 30+Game.current.upgrade3*10;
+					suspensions[1].GetComponent<Suspension>().steerRangeMin = -30-Game.current.upgrade3*10;
                     suspensions[0].transform.localPosition = new Vector3(-0.76f, -0.27f, 1.28f); //FL
 					suspensions[1].transform.localPosition = new Vector3(0.78f, -0.27f, 1.28f); //FR
 					suspensions[2].transform.localPosition = new Vector3(-0.76f, -0.269f, -1.48f); //RL
@@ -137,15 +141,17 @@ public class chooseCar : MonoBehaviour {
 				}
 				else if(Game.current.carId == 2) //CIVIC
 				{
-					variklis.torqueCurve.AddKey(4.5f+Game.current.upgrade1/5, 0);
-					variklis.power = 0.35f+Game.current.upgrade2/50;
+					variklis.torqueCurve.AddKey(4.3f+Game.current.upgrade1/50, 1);
+					variklis.power = 0.3f+Game.current.upgrade2/50;
 		            variklis.GetMaxRPM();
-					ackerman1.ackermannFactor = 0.02f+Game.current.upgrade3/500;
-					ackerman2.ackermannFactor = 0.02f+Game.current.upgrade3/500;
 					wheel1.transform.localScale = new Vector3(0.65f, 0.65f, 1);
 					wheel2.transform.localScale = new Vector3(0.65f, 0.65f, 1);
 					wheel3.transform.localScale = new Vector3(0.65f, 0.65f, 1);
 					wheel4.transform.localScale = new Vector3(0.65f, 0.65f, 1);
+					suspensions[0].GetComponent<Suspension>().steerRangeMax = 30+Game.current.upgrade3*10;
+					suspensions[0].GetComponent<Suspension>().steerRangeMin = -30-Game.current.upgrade3*10;
+					suspensions[1].GetComponent<Suspension>().steerRangeMax = 30+Game.current.upgrade3*10;
+					suspensions[1].GetComponent<Suspension>().steerRangeMin = -30-Game.current.upgrade3*10;
                     suspensions[0].transform.localPosition = new Vector3(-0.76f, -0.27f, 1.35f); //FL
 					suspensions[1].transform.localPosition = new Vector3(0.78f, -0.27f, 1.35f); //FR
 					suspensions[2].transform.localPosition = new Vector3(-0.76f, -0.269f, -1.48f); //RL
@@ -161,7 +167,35 @@ public class chooseCar : MonoBehaviour {
 					boostParticles[0].transform.localPosition = new Vector3(-0.44f, -0.4f, -2.35f); //bpl
 					boostParticles[1].transform.localPosition = new Vector3(0.44f, -0.4f, -2.35f); //bpr
 				}
+				else if(Game.current.carId == 4) //CELICA
+				{
+					variklis.torqueCurve.AddKey(4.8f, 1);
+					variklis.power = 0.4f;
+		            variklis.GetMaxRPM();
+					wheel1.transform.localScale = new Vector3(0.65f, 0.65f, 1);
+					wheel2.transform.localScale = new Vector3(0.65f, 0.65f, 1);
+					wheel3.transform.localScale = new Vector3(0.65f, 0.65f, 1);
+					wheel4.transform.localScale = new Vector3(0.65f, 0.65f, 1);
+					suspensions[0].GetComponent<Suspension>().steerRangeMax = 40+Game.current.upgrade3*10;
+					suspensions[0].GetComponent<Suspension>().steerRangeMin = -40-Game.current.upgrade3*10;
+					suspensions[1].GetComponent<Suspension>().steerRangeMax = 40+Game.current.upgrade3*10;
+					suspensions[1].GetComponent<Suspension>().steerRangeMin = -40-Game.current.upgrade3*10;
+                    suspensions[0].transform.localPosition = new Vector3(-0.76f, -0.27f, 1.52f); //FL
+					suspensions[1].transform.localPosition = new Vector3(0.78f, -0.27f, 1.52f); //FR
+					suspensions[2].transform.localPosition = new Vector3(-0.76f, -0.27f, -1.23f); //RL
+					suspensions[3].transform.localPosition = new Vector3(0.78f, -0.27f, -1.23f); //RR
+					lights[0].transform.localPosition = new Vector3(-0.63f, 0.12f, -2.02f); //bl
+					lights[1].transform.localPosition = new Vector3(0.63f, 0.12f, -2.02f); //br
+					lights[2].transform.localPosition = new Vector3(0.01f, 0.32f, -2.05f); //bsh
+					lights[3].transform.localPosition = new Vector3(-0.74f, -0.01f, 2.35f); //hl
+					lights[4].transform.localPosition = new Vector3(0.74f, -0.01f, 2.35f); //hr
+					lights[5].transform.localPosition = new Vector3(0.5f, 0.12f, -2.04f); //rr
+					lights[6].transform.localPosition = new Vector3(-0.5f, 0.12f, -2.04f); //rl
+					licenseplate.transform.localPosition = new Vector3(0.301f, 0.49f, -2f);
+					boostParticles[0].transform.localPosition = new Vector3(-0.5f, -0.37f, -2.17f); //bpl
+					boostParticles[1].transform.localPosition = new Vector3(0.5f, -0.37f, -2.17f); //bpr
+				}
 			}
 		}
-	}
+	}*/
 }

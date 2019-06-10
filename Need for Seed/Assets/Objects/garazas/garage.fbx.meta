@@ -1,315 +1,344 @@
 fileFormatVersion: 2
 guid: 82972d6db0bb8ec4290b9dbdbf3663f9
-timeCreated: 1518824752
-licenseType: Free
 ModelImporter:
-  serializedVersion: 22
+  serializedVersion: 23
   fileIDToRecycleName:
-    100000: //RootNode
-    400000: //RootNode
-    2100000: TEX_0007.001
-    2100002: TEX_0199.001
-    2100004: TEX_0041.001
-    2100006: TEX_0005.001
-    2100008: TEX_0032.001
-    2100010: TEX_0048.001
-    2100012: TEX_0074.001
-    2100014: TEX_0010.001
-    2100016: TEX_0080.001
-    2100018: TEX_0087.001
-    2100020: TEX_0055.001
-    2100022: TEX_0029.001
-    2100024: TEX_0050.001
-    2100026: TEX_0051.001
-    2100028: TEX_0046.001
-    2100030: TEX_0004.001
-    2100032: TEX_0052.001
-    2100034: TEX_0030.001
-    2100036: TEX_0056.001
-    2100038: TEX_0206.001
-    2100040: TEX_0059.001
-    2100042: TEX_0196.001
-    2100044: TEX_0102.001
-    2100046: TEX_0058.001
-    2100048: TEX_0089.001
-    2100050: TEX_0018.001
-    2100052: TEX_0210.001
-    2100054: TEX_0071.001
-    2100056: TEX_0198.001
-    2100058: TEX_0086.001
-    2100060: TEX_0054.001
-    2100062: TEX_0038.001
-    2100064: TEX_0009.001
-    2100066: TEX_0023.001
-    2100068: TEX_0014.001
-    2100070: TEX_0024.001
-    2100072: TEX_0040.001
-    2100074: TEX_0021.001
-    2100076: TEX_0073.001
-    2100078: TEX_0016.001
-    2100080: TEX_0015.001
-    2100082: TEX_0062.001
-    2100084: TEX_0035.001
-    2100086: TEX_0034.001
-    2100088: TEX_0025.001
-    2100090: TEX_0006.001
-    2100092: TEX_0019.001
-    2100094: TEX_0013.001
-    2100096: TEX_0027.001
-    2300000: //RootNode
-    3300000: //RootNode
-    4300000: garazas1
+    100000: doors
+    100002: //RootNode
+    100004: garage
+    100006: Cube
+    400000: doors
+    400002: //RootNode
+    400004: garage
+    400006: Cube
+    2100000: Industdoor1128
+    2100002: rusta256128
+    2100004: blackmetal
+    2100006: concretebigc256
+    2100008: newall3_16c128
+    2100010: newindow4
+    2100012: doornvent256128
+    2100014: tool_store2
+    2100016: ab_steelFrameA
+    2100018: ab_metaledge
+    2100020: Alumox64b
+    2100022: cardboxes_128
+    2100024: compressor
+    2100026: posh1_128
+    2100028: metpat_64
+    2100030: panel2_64a
+    2100032: porta_256128
+    2100034: lights_64HV
+    2100036: tool_store
+    2100038: auto_tune3
+    2100040: toolwall1
+    2100042: auto_tune1
+    2100044: auto_tune2
+    2100046: tyretread_64H
+    2100048: welder
+    2100050: yellowvertical_64HV
+    2100052: Industdoor1128.001
+    2100054: rusta256128.001
+    2100056: blackmetal.001
+    2100058: concretebigc256.001
+    2100060: newall3_16c128.001
+    2100062: newindow4.001
+    2100064: doornvent256128.001
+    2100066: tool_store2.001
+    2100068: ab_steelFrameA.001
+    2100070: ab_metaledge.001
+    2100072: Alumox64b.001
+    2100074: cardboxes_128.001
+    2100076: compressor.001
+    2100078: posh1_128.001
+    2100080: metpat_64.001
+    2100082: panel2_64a.001
+    2100084: porta_256128.001
+    2100086: lights_64HV.001
+    2100088: tool_store.001
+    2100090: auto_tune3.001
+    2100092: toolwall1.001
+    2100094: auto_tune1.001
+    2100096: auto_tune2.001
+    2100098: tyretread_64H.001
+    2100100: welder.001
+    2100102: yellowvertical_64HV.001
+    2300000: doors
+    2300002: garage
+    2300004: Cube
+    3300000: doors
+    3300002: garage
+    3300004: Cube
+    4300000: doors
+    4300002: garage
+    4300004: Cube
+    2186277476908879412: ImportLogs
   externalObjects:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: TEX_0004.001
-    second: {fileID: 2100000, guid: 2430290f331713943b6b842bf928c38d, type: 2}
+      name: Alumox64b
+    second: {fileID: 2100000, guid: cba7e1813f747ee4aadb3066ee4e8ce6, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: TEX_0005.001
-    second: {fileID: 2100000, guid: 4cbc25280152ed24c8537e7693c56ac3, type: 2}
+      name: Alumox64b.001
+    second: {fileID: 2100000, guid: 29e7da401ae65ec4c902fed10a600dc2, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: TEX_0006.001
-    second: {fileID: 2100000, guid: cbc94040ed1f079468a3ec4552c412ad, type: 2}
+      name: Industdoor1128
+    second: {fileID: 2100000, guid: f0e59f86c354c2c40bcd27137c773c6a, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: TEX_0007.001
-    second: {fileID: 2100000, guid: 7da36aded946f45438c2c7876aac1104, type: 2}
+      name: Industdoor1128.001
+    second: {fileID: 2100000, guid: d6f35bc37261b7845a0a309b9209b364, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: TEX_0009.001
-    second: {fileID: 2100000, guid: db446402fe27a654dbb25e724a90677c, type: 2}
+      name: ab_metaledge
+    second: {fileID: 2100000, guid: 4845c44a4a76ecb41a9b57b5c103eb34, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: TEX_0010.001
-    second: {fileID: 2100000, guid: 142e345b9d2f7b04f85219296e956784, type: 2}
+      name: ab_metaledge.001
+    second: {fileID: 2100000, guid: 4494ec35b3551244db4b9b80c74da8a0, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: TEX_0013.001
-    second: {fileID: 2100000, guid: 7b6d3be4cd5e06148af1402d1bee71d8, type: 2}
+      name: ab_steelFrameA
+    second: {fileID: 2100000, guid: 948c4f9a9f09f3646baaafe0cd6bbdfc, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: TEX_0014.001
-    second: {fileID: 2100000, guid: d2e0d67dab0a0664da18a3d27a7c4a3e, type: 2}
+      name: ab_steelFrameA.001
+    second: {fileID: 2100000, guid: 0f808997702fec84f85fa84e753a8838, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: TEX_0015.001
-    second: {fileID: 2100000, guid: da828edd8997bc447b8a08fe35d91d71, type: 2}
+      name: auto_tune1
+    second: {fileID: 2100000, guid: 884571524db1f144d968da5a5afcebb6, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: TEX_0016.001
-    second: {fileID: 2100000, guid: 11696b18e833a774094ce855e2f8c3c7, type: 2}
+      name: auto_tune1.001
+    second: {fileID: 2100000, guid: 2cf81c668e9e5f542b5073c1845c288b, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: TEX_0018.001
-    second: {fileID: 2100000, guid: 60111ad60b669634bbf32ee38f0552fd, type: 2}
+      name: auto_tune2
+    second: {fileID: 2100000, guid: 1326bef08e7cab948b360b899f4340b6, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: TEX_0019.001
-    second: {fileID: 2100000, guid: 0fbff1098b5ed964d9e97b3fa7c57380, type: 2}
+      name: auto_tune2.001
+    second: {fileID: 2100000, guid: 71e42bfd2afd111499200b5fb8ac9523, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: TEX_0021.001
-    second: {fileID: 2100000, guid: 94f1e3338d0b3f64cb3a0da7f4584f1f, type: 2}
+      name: auto_tune3
+    second: {fileID: 2100000, guid: 8387267ef6c67db44b1d059f1f0726f0, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: TEX_0023.001
-    second: {fileID: 2100000, guid: a5ef336738b056943972fa2394e5ce33, type: 2}
+      name: auto_tune3.001
+    second: {fileID: 2100000, guid: 0590fe7f66c4dc7438da69292ad8389e, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: TEX_0024.001
-    second: {fileID: 2100000, guid: 3388aa234b76bbc4aabff26c453702c9, type: 2}
+      name: blackmetal
+    second: {fileID: 2100000, guid: 295c19d769fb1d3478a86009a906fee3, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: TEX_0025.001
-    second: {fileID: 2100000, guid: 3516cdc81fb612248832d4cd7648bea7, type: 2}
+      name: blackmetal.001
+    second: {fileID: 2100000, guid: 96485931295f8654387ba77d83fcc6bd, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: TEX_0027.001
-    second: {fileID: 2100000, guid: bc72803049136b24bb78996b8491cb4b, type: 2}
+      name: cardboxes_128
+    second: {fileID: 2100000, guid: ec2cee111fe51ae40abe53c8b67b5e6b, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: TEX_0029.001
-    second: {fileID: 2100000, guid: 9920324b6a8686a4e8b344bdd326ee7d, type: 2}
+      name: cardboxes_128.001
+    second: {fileID: 2100000, guid: 8136d191c79908b428cae9055aa23023, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: TEX_0030.001
-    second: {fileID: 2100000, guid: caa8c3177097f854c866911e2e62443d, type: 2}
+      name: compressor
+    second: {fileID: 2100000, guid: 5c09de14f29a25f49af35962cf10436a, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: TEX_0032.001
-    second: {fileID: 2100000, guid: 1704e3ebaac8db642a995893e44677c0, type: 2}
+      name: compressor.001
+    second: {fileID: 2100000, guid: 3f4760c68429c6948a283b81f48a6535, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: TEX_0034.001
-    second: {fileID: 2100000, guid: 9331967e8f8c23f4291748f2dbc7d4de, type: 2}
+      name: concretebigc256
+    second: {fileID: 2100000, guid: 713d7bfc22ef67343a6dfc7f8b429dd3, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: TEX_0035.001
-    second: {fileID: 2100000, guid: ecaa76d47c1894e488ea05fb23b5c4c0, type: 2}
+      name: concretebigc256.001
+    second: {fileID: 2100000, guid: a9312f060851577459e5846a3a1c1edf, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: TEX_0038.001
-    second: {fileID: 2100000, guid: ea57d66985c30fc4cb1883d804e11a15, type: 2}
+      name: doornvent256128
+    second: {fileID: 2100000, guid: 752064b91c0046d40a338764f39074d2, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: TEX_0040.001
-    second: {fileID: 2100000, guid: e399de7cfee718b4d896a77b9c7f2183, type: 2}
+      name: doornvent256128.001
+    second: {fileID: 2100000, guid: 0778223cac1a2b742a8e8c4999b313dd, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: TEX_0041.001
-    second: {fileID: 2100000, guid: 630c2ae35c1ff1d4490b8001e57a87f6, type: 2}
+      name: lights_64HV
+    second: {fileID: 2100000, guid: 6491563048008d54fb8ccf89bd06ee68, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: TEX_0046.001
-    second: {fileID: 2100000, guid: f002e01c1187c0544b17a3239d6c77dd, type: 2}
+      name: lights_64HV.001
+    second: {fileID: 2100000, guid: acc6bc5cc5ac6674c81a1ad61a4cc9b8, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: TEX_0048.001
-    second: {fileID: 2100000, guid: 6ec9e3b9104a4014abb59d41d051304a, type: 2}
+      name: metpat_64
+    second: {fileID: 2100000, guid: 1db41db89f182114a9f9188babf59ef2, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: TEX_0050.001
-    second: {fileID: 2100000, guid: b748d97cfbe24b34f95c826795807ecf, type: 2}
+      name: metpat_64.001
+    second: {fileID: 2100000, guid: 88a5fd25a03d1df44bb17d4deceaa09b, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: TEX_0051.001
-    second: {fileID: 2100000, guid: cfb8c9e5e6b15074e8ffdb6e3fde38f1, type: 2}
+      name: newall3_16c128
+    second: {fileID: 2100000, guid: bd12e60b82b2c4d48b4e3f7e6f1dc602, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: TEX_0052.001
-    second: {fileID: 2100000, guid: 7a517dbf54b163a4d823cf46317e856f, type: 2}
+      name: newall3_16c128.001
+    second: {fileID: 2100000, guid: f40bfed545cdcef42a4d0cd647ff93a7, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: TEX_0054.001
-    second: {fileID: 2100000, guid: db844ee554103ec4d958290ace59bc02, type: 2}
+      name: newindow4
+    second: {fileID: 2100000, guid: a6549517f64e7f44fbd19f841c8bd10f, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: TEX_0055.001
-    second: {fileID: 2100000, guid: 4c42ae30ed26a044d9676e94434f9a14, type: 2}
+      name: newindow4.001
+    second: {fileID: 2100000, guid: 3bfce7b1c114fde4080958fb4ec01c70, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: TEX_0056.001
-    second: {fileID: 2100000, guid: fd45d26df0ca37948a0c76d93e3ba59f, type: 2}
+      name: panel2_64a
+    second: {fileID: 2100000, guid: ac0c07aaf68845c45a781e9771606c2b, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: TEX_0058.001
-    second: {fileID: 2100000, guid: e2886c1f000fd644e997a3416e8127ac, type: 2}
+      name: panel2_64a.001
+    second: {fileID: 2100000, guid: 3c8bd731182bb9f41a3b803c7e34da1d, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: TEX_0059.001
-    second: {fileID: 2100000, guid: e4b21e27d80471e4ba0b27494c105dc1, type: 2}
+      name: porta_256128
+    second: {fileID: 2100000, guid: de682598db1aeb6408434b9d7946c1bb, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: TEX_0062.001
-    second: {fileID: 2100000, guid: 5b3b003e4a569364a8da8fb1f02a5421, type: 2}
+      name: porta_256128.001
+    second: {fileID: 2100000, guid: 62a90e9a5bb494049858c846c36c9e66, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: TEX_0071.001
-    second: {fileID: 2100000, guid: ae0c01f8e4425614fb78ff01bbce15c8, type: 2}
+      name: posh1_128
+    second: {fileID: 2100000, guid: 43e04337b21f17647a6be64417fc9a83, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: TEX_0073.001
-    second: {fileID: 2100000, guid: 682928fe906003347b4301443244ff25, type: 2}
+      name: posh1_128.001
+    second: {fileID: 2100000, guid: 38aeae1237623fb42926b812934cf6cd, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: TEX_0074.001
-    second: {fileID: 2100000, guid: 4b549d255b3801542b0df2424fa936a0, type: 2}
+      name: rusta256128
+    second: {fileID: 2100000, guid: d11c9ca1089add24c9ea957683189116, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: TEX_0080.001
-    second: {fileID: 2100000, guid: 93ae9ec1f9746174fa267d9d785e2da4, type: 2}
+      name: rusta256128.001
+    second: {fileID: 2100000, guid: d3f26b512c10cdd4bb9d446bb5715374, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: TEX_0086.001
-    second: {fileID: 2100000, guid: d2bb8e25c3f7c50418c9e78480865555, type: 2}
+      name: tool_store
+    second: {fileID: 2100000, guid: 39f742ec41404d54982c96e0d6815504, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: TEX_0087.001
-    second: {fileID: 2100000, guid: 77b900e405c2324479803df52737f329, type: 2}
+      name: tool_store.001
+    second: {fileID: 2100000, guid: cc625badf069c264587e874a7c0e433b, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: TEX_0089.001
-    second: {fileID: 2100000, guid: eb352fe4a7847f64f9c4b2be44e69fbf, type: 2}
+      name: tool_store2
+    second: {fileID: 2100000, guid: 4fedc3c44958613498da7e885f73b4a9, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: TEX_0102.001
-    second: {fileID: 2100000, guid: 7e70c31fd1de2754e947f1eaabbcadf3, type: 2}
+      name: tool_store2.001
+    second: {fileID: 2100000, guid: 7abb64365e8c6c44c8052bdbd049c65e, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: TEX_0196.001
-    second: {fileID: 2100000, guid: 6f3f90572b8f16344898f4b58fd7761e, type: 2}
+      name: toolwall1
+    second: {fileID: 2100000, guid: ec5bb96692b286040aa9a50093d9b4f2, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: TEX_0198.001
-    second: {fileID: 2100000, guid: 2fc2e60fc188caa44861481d115edd91, type: 2}
+      name: toolwall1.001
+    second: {fileID: 2100000, guid: 75c21950a8b76034d8a250b8c94ff2ca, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: TEX_0199.001
-    second: {fileID: 2100000, guid: f0a5a16bb6551b44f90f3576a6559dd6, type: 2}
+      name: tyretread_64H
+    second: {fileID: 2100000, guid: 48dbce4bad2c33d45b6a6fcb431cfc05, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: TEX_0206.001
-    second: {fileID: 2100000, guid: ea898d1004137c64ea4de5b966def6e1, type: 2}
+      name: tyretread_64H.001
+    second: {fileID: 2100000, guid: b10f9179eb0c3db4eab226220244784e, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: TEX_0210.001
-    second: {fileID: 2100000, guid: 4fc22b523eff4f34ea58da05feb81152, type: 2}
+      name: welder
+    second: {fileID: 2100000, guid: d792f0636b172bb419d68be92f7ceaf4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: welder.001
+    second: {fileID: 2100000, guid: 92bf6f2124240ad4c859e1209b6df7ca, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: yellowvertical_64HV
+    second: {fileID: 2100000, guid: 9cc70c96ebf217b41bc6887f154828ae, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: yellowvertical_64HV.001
+    second: {fileID: 2100000, guid: 6f66006ceca96be4494b816674df7417, type: 2}
   materials:
-    importMaterials: 1
+    importMaterials: 0
     materialName: 0
     materialSearch: 1
-    materialLocation: 0
+    materialLocation: 1
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
@@ -323,6 +352,7 @@ ModelImporter:
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
+    importConstraints: 0
     animationCompression: 1
     animationRotationError: 0.5
     animationPositionError: 0.5
@@ -337,10 +367,10 @@ ModelImporter:
     globalScale: 1
     meshCompression: 0
     addColliders: 0
-    importVisibility: 0
-    importBlendShapes: 0
-    importCameras: 0
-    importLights: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
     swapUVChannels: 0
     generateSecondaryUV: 1
     useFileUnits: 1
@@ -354,9 +384,11 @@ ModelImporter:
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
   tangentSpace:
     normalSmoothAngle: 60
-    normalImportMode: 1
+    normalImportMode: 0
     tangentImportMode: 3
     normalCalculationMode: 4
   importAnimation: 0
@@ -373,7 +405,6 @@ ModelImporter:
     legStretch: 0.05
     feetSpacing: 0
     rootMotionBoneName: 
-    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
     hasTranslationDoF: 0
     hasExtraRoot: 0
     skeletonHasParents: 1

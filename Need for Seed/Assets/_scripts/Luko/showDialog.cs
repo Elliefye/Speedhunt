@@ -43,13 +43,34 @@ public class showDialog : MonoBehaviour {
 		{
 			player.GetComponent<ThirdPersonUserControl>().enabled=false;
 		}
-		else if(dialogid == 15)
+		else if(dialogid == -2)
 		{
+			dialogid = -1;
 			talker.CrossFadeInFixedTime("angry", 1);
 			talker.transform.LookAt(player.transform);
 		}
+		else if(dialogid == 23)
+		{
+			talker.transform.position = new Vector3(385.2f, 1.366f, 457.6f);
+			talker.transform.rotation = Quaternion.Euler(0f, -170, 0f);
+			talker.CrossFadeInFixedTime("happy", 1);
+			talker.CrossFadeInFixedTime("moveForward", 1);
+			talker.CrossFadeInFixedTime("handsUp", 1);
+			talker.GetComponent<lookathim>().enabled = true;
+			text = "Hey there! " + Game.current.name +", right? Welcome to my humble workshop. The name's Bob, Bob Myers. Although beats me why would you ever need it other than to bore your granny to death for her will.";
+		}
+		else if(dialogid == 26)
+		{
+			talker.transform.LookAt(player.transform);
+			talker.CrossFadeInFixedTime("neutral", 1);
+		}
 		if(player)
 		{
+			lookathim eyescript = talker.GetComponent<lookathim>();
+			if(eyescript)
+			{
+				eyescript.enabled=true;
+			}
 			player.GetComponent<ThirdPersonUserControl>().enabled=false;
 		}
 		dialogManager.ShowPlayerDialog(name, text, dialogid);

@@ -4,9 +4,13 @@ using UnityEngine;
 
 public class setAnimation : MonoBehaviour {
 
-    public string animation;
+    public string[] animation;
 	// Use this for initialization
-	void Start () {
-        this.GetComponent<Animator>().Play(animation);
+	void OnEnable () {
+		foreach(string animas in animation)
+		{
+			Debug.Log(animas);
+			this.GetComponent<Animator>().Play(animas);
+		}
 	}
 }

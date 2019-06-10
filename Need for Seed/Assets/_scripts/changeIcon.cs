@@ -34,6 +34,7 @@ public class changeIcon : MonoBehaviour
             attention.sprite = icon_trigger;
             attention.color = new Color32(255, 255, 255, 255);
             text_trigger.gameObject.SetActive(true);
+            Debug.Log(distance);
         }
         else
         {

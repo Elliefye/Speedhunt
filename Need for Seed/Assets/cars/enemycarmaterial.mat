@@ -4,7 +4,7 @@
 Material:
   serializedVersion: 6
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: enemycarmaterial
   m_Shader: {fileID: 4800000, guid: bf441677c1d116a4db41bfae35e07c16, type: 3}
@@ -81,7 +81,7 @@ Material:
     - _UVSec: 0
     - _ZWrite: 1
     m_Colors:
-    - _Color: {r: 0.48235294, g: 0.48235294, b: 0.48235294, a: 1}
+    - _Color: {r: 0.49803922, g: 0.078431375, b: 0.7137255, a: 0.38431373}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _ReflectColor: {r: 0.2830189, g: 0.2830189, b: 0.2830189, a: 0.5}
     - _SpecColor: {r: 1, g: 1, b: 1, a: 0}

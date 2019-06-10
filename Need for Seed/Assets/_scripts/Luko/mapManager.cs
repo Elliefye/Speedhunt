@@ -36,15 +36,19 @@ public class mapManager : MonoBehaviour {
 			}
 			Game.current.isNight=true;
 			policeicon.SetActive(true);
+			garageicon.SetActive(true);
 			this.GetComponent<Renderer>().material.SetTexture("_MainTex", daytex);
 		}
-		if(Game.current.mainQuest >= 2)
-		{
-			garageicon.SetActive(true);
-		}
-		if(Game.current.mainQuest == 0)
+		/*          SHOWING SMS'ES                      */
+		if(Game.current.mainQuest == 0)//Showing Nicole's SMS
 		{
 			smses[0].SetActive(true);
+			Game.current.mainQuest++;
+		}
+		else if(Game.current.mainQuest == 1)//Showing Bob's SMS
+		{
+			smses[1].SetActive(true);
+			Game.current.mainQuest++;
 		}
 		moneytext.text = "MONEY: $" + Game.current.cash;
 		reptext.text = "REPUTATION: " + Game.current.rep;

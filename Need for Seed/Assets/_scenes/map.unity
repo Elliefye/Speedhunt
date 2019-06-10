@@ -1960,6 +1960,7 @@ MonoBehaviour:
   sidequests: []
   smses:
   - {fileID: 1950354668}
+  - {fileID: 2125358292}
 --- !u!82 &1105671223
 AudioSource:
   m_ObjectHideFlags: 0

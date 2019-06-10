@@ -2,11 +2,11 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using TMPro;
+//using TMPro;
 
 public class endrace : MonoBehaviour {
 
-    public GameObject vodtext;
+ /*   public GameObject vodtext;
 	public GameObject vp;
 	public GameObject endracecutscene;
 	public GameObject musics;
@@ -67,5 +67,5 @@ public class endrace : MonoBehaviour {
 		{
             loadmap.SetActive(true);
 		}
-	}
+	}*/
 }

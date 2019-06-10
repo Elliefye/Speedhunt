@@ -18,7 +18,7 @@ public class dialogueSystem : MonoBehaviour {
     private bool typing = false;
 	void Update()
     {
-        if(animator.GetBool("isOpen") && !choosing && Input.GetMouseButtonDown(0))
+        if(animator.GetCurrentAnimatorStateInfo(0).IsName("dialogueboxopen") && !choosing && Input.GetMouseButtonDown(0))
 		{
 			if(typing)
 			{
@@ -35,9 +35,18 @@ public class dialogueSystem : MonoBehaviour {
 		if (dialogID == -1) {
 			animator.SetBool ("isOpen", false);
 			Game.current.checking = false;
-			if(talker) talker.CrossFadeInFixedTime("faceidle", 1);
+			if(talker)
+			{
+				talker.CrossFadeInFixedTime("faceIdle", 1);
+				talker.GetComponent<lookathim>().enabled = false;
+			}
 			if(player) 
 			{
+				lookathim eyescript = talker.GetComponent<lookathim>();
+				if(eyescript)
+				{
+					eyescript.enabled=false;
+				}
 				player.GetComponent<ThirdPersonUserControl>().enabled=true;
 			}
             if(afterDialogue)
@@ -141,12 +150,47 @@ public class dialogueSystem : MonoBehaviour {
 			StartCoroutine(rotateTowards(talker.transform, -180f));
 			ShowPlayerDialog("NICOLE", "Well, that's all I know for now, is there anything else you would like me to talk about?", 19);
 		}
+		else if(dialogID == 23)
+		{
+			talker.CrossFadeInFixedTime("handsUp", 1);
+			ShowPlayerDialog("BOB", "Quite a view, right? Built it over the years... I use this place to fix up the wrecks that you guys carry in 'ere cryin' after losing like idiots.", 24);
+		}
+		else if(dialogID == 24)
+	    {
+			talker.CrossFadeInFixedTime("neutral", 1);
+			talker.CrossFadeInFixedTime("handUp", 1);
+			ShowPlayerDialog("BOB", "Anyway, you got a pile o' trash that needs fixin' - I'm your guy. I can turn an old tire and a few scraps into a fucking Mustang before you can say 'I prefer Porsche'. Got some nice parts come through 'ere, too. Just come to me and I'll do anything for ya.", 25);
+		}
+		else if(dialogID == 25)
+		{
+			talker.CrossFadeInFixedTime("happy", 1);
+			talker.CrossFadeInFixedTime("shrug", 1);
+			ShowPlayerDialog("BOB", "Maybe I'll even get you a discount if you don't piss me off too much.", -1);
+		}
+		else if(dialogID == 26)
+		{
+			talker.CrossFadeInFixedTime("faceIdle", 1);
+			ShowPlayerChoices("I need performance upgrades.", "I need visual upgrades.", "I want to ask you something.", "That's all.", 26);
+		}
+		else if(dialogID == 29)
+		{
+			ShowPlayerChoices("Why are you helping me?", "What do you know about these street races?", "That's all", "", 29);
+			talker.CrossFadeInFixedTime("faceIdle", 1);
+		}
+		else if(dialogID == 30)
+		{
+			//talker.transform.rotation = Quaternion.RotateTowards(talker.transform.rotation, Quaternion.Euler(0, 180, 0), Time.deltaTime);
+			talker.transform.rotation = Quaternion.Euler(0f, -230f, 0f);
+			dialogID = -1;
+			afterDialogue = null;
+			OnDialogResponse();
+		}
 	}
     void OnChoice1()
 	{
 		if(player)
 		{
-			Camera.main.GetComponent<SmoothMouseLook>().enabled=true;
+			Camera.main.GetComponent<MouseMove>().enabled=true;
 		}
 		choice1.SetActive(false);
 		choice2.SetActive(false);
@@ -196,12 +240,23 @@ public class dialogueSystem : MonoBehaviour {
 			talker.CrossFadeInFixedTime("neutral", 1);
 			ShowPlayerDialog("NICOLE", "Our main goal of the mission is to stop the activities of the unnamed gang that is known for street racing, prostitution, smuggling and car thefts. Sadly, the only way we can track them down is by participating in their street racing activities for the best drivers in the city and that's where your role steps in. Earn enough reputation to get invitations to their events and take them out one by one.", 22);
 		}
+		else if(dialogID == 26)
+		{
+			talker.CrossFadeInFixedTime("happy", 1);
+			ShowPlayerDialog("BOB", "Wanna put more horses under that hood? No problem!", 27);
+		}
+		else if(dialogID == 29)
+		{
+			talker.CrossFadeInFixedTime("happy", 1);
+			talker.CrossFadeInFixedTime("shrug", 1);
+			ShowPlayerDialog("BOB", "Help? Ya got it all wrong, kiddo. No one in this business just wants to 'help'. Nah, man, this is a mutual benefit type of relationship. Not that Imma start shagging your cousin for revenge after you dump me, ha! Anyway, I got a place, you got money - at all works out.", 29);
+		}
 	}
 	void OnChoice2()
 	{
 		if(player)
 		{
-			Camera.main.GetComponent<SmoothMouseLook>().enabled=true;
+			Camera.main.GetComponent<MouseMove>().enabled=true;
 		}
 		choice1.SetActive(false);
 		choice2.SetActive(false);
@@ -241,12 +296,23 @@ public class dialogueSystem : MonoBehaviour {
 			talker.CrossFadeInFixedTime("neutral", 1);
 			ShowPlayerDialog("NICOLE", "To earn reputation, you have to show off your driving skills and the car meets are the best places to do that. However, likes from people won't bring you fortune, you'll have to do some street racing to earn it. Adding to that, I would like to remind you that working under my banner doesn't give you a permission to do illegal stuff. Other officers don't tolerate your presence and will put you back to jail if they see anything too much or too suspicious, keep that in mind.", 22);
 		}
+		else if(dialogID == 26)
+		{
+			talker.CrossFadeInFixedTime("happy", 1);
+			ShowPlayerDialog("BOB", "Not enough ladies' attention, eh? Let me help ya with that!", 28);
+		}
+		else if(dialogID == 29)
+		{
+			talker.CrossFadeInFixedTime("neutral", 1);
+			talker.CrossFadeInFixedTime("shrug", 1);
+			ShowPlayerDialog("BOB", "All I know is that it takes mad work to get cash and respect. You know how many crybabies have come in here with their slowpoke rides, looking for sympathy? The road ain't got no sympathy. You lose, you're out of your money. Just like that.", 29);
+		}
 	}
 	void OnChoice3()
 	{
 		if(player)
 		{
-			Camera.main.GetComponent<SmoothMouseLook>().enabled=true;
+			Camera.main.GetComponent<MouseMove>().enabled=true;
 		}
 		choice1.SetActive(false);
 		choice2.SetActive(false);
@@ -294,12 +360,22 @@ public class dialogueSystem : MonoBehaviour {
 				ShowPlayerDialog("NICOLE", "Hehe, I'm not sure if you're eligible to get that kind of information. All I can tell you right now is that I'm your boss and you should get back to work if you have no other questions.", 19);
 			}
 		}
+		else if(dialogID == 26)
+		{
+			talker.CrossFadeInFixedTime("neutral", 1);
+			ShowPlayerDialog("BOB", "Ask away.", 29);
+		}
+		else if(dialogID == 29)
+		{
+			talker.CrossFadeInFixedTime("neutral", 1);
+			ShowPlayerDialog("BOB", "Let me know if ya need anythin.", 30);
+		}
 	}
 	void OnChoice4()
 	{
 		if(player)
 		{
-			Camera.main.GetComponent<SmoothMouseLook>().enabled=true;
+			Camera.main.GetComponent<MouseMove>().enabled=true;
 		}
 		choice1.SetActive(false);
 		choice2.SetActive(false);
@@ -322,6 +398,11 @@ public class dialogueSystem : MonoBehaviour {
 		{
 			ShowPlayerChoices("Report...", "Ask about...", "Say goodbye", "", 19);
 		}
+		else if(dialogID == 26)
+		{
+			talker.CrossFadeInFixedTime("neutral", 1);
+			ShowPlayerDialog("BOB", "Let me know if ya need anythin.", 30);
+		}
 	}
 	public void ShowPlayerChoices(string choice_1, string choice_2, string choice_3, string choice_4, int dialogIDx)
 	{
@@ -330,7 +411,7 @@ public class dialogueSystem : MonoBehaviour {
 		//nameText.text = PlayerPrefs ("Name");
 		if(player)
 		{
-			Camera.main.GetComponent<SmoothMouseLook>().enabled=false;
+			Camera.main.GetComponent<MouseMove>().enabled=false;
 		}
 		choosing = true;
 		dialogID = dialogIDx;

@@ -1,15 +1,13 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using TMPro; 
+//using TMPro; 
 
 public class enemyCars : MonoBehaviour {
 
-	public GameObject[] suspensions;
+/*	public GameObject[] suspensions;
 	public GameObject[] lights;
 	public GameObject motor;
-	private Suspension ackerman1;
-	private Suspension ackerman2;
 	private GasMotor variklis;
 	public GameObject wheel1;
 	public GameObject wheel2;
@@ -18,14 +16,20 @@ public class enemyCars : MonoBehaviour {
 	public GameObject licenseplate;
 	public GameObject[] boostParticles;
 	public Material carmat;
-	public Color32 carcolor = new Color32(123, 123, 123, 255);
 	//public 
-	public int whichCar=0;
 	public string whichName = "Lewsar";
 	void Start () {
 		variklis = motor.GetComponent<GasMotor>();
-		ackerman1 = suspensions[0].GetComponent<Suspension>();
-		ackerman2 = suspensions[1].GetComponent<Suspension>();
+		int whichCar;
+		if(Game.current.mainQuest < 3)
+		{
+			whichCar = Random.Range(1, 4);
+		}
+		else
+		{
+			whichCar = 0;
+		}
+		Color32 carcolor = new Color32((byte)Random.Range(0, 255), (byte)Random.Range(0, 255), (byte)Random.Range(0, 255), (byte)Random.Range(0, 255));
 		carmat.SetColor("_Color", carcolor);
 		foreach (Transform child in transform) {
 			if (whichCar.ToString () == child.name) {
@@ -65,8 +69,8 @@ public class enemyCars : MonoBehaviour {
 				licenseplate.GetComponent<TextMeshPro>().text = whichName;
 				if(whichCar == 0) //Nissan
 				{
-					variklis.torqueCurve.AddKey(7f, 0);
-					variklis.power = 0.5f;
+					variklis.torqueCurve.AddKey(5f, 0);
+					variklis.power = 0.4f;
 		            variklis.GetMaxRPM();
 					wheel1.transform.localScale = new Vector3(0.8f, 0.8f, 1);
 					wheel2.transform.localScale = new Vector3(0.8f, 0.8f, 1);
@@ -89,7 +93,7 @@ public class enemyCars : MonoBehaviour {
 				}
 				else if(whichCar == 1) //BMW
 				{
-					variklis.torqueCurve.AddKey(5f, 0);
+					variklis.torqueCurve.AddKey(4.3f, 1);
 					variklis.power = 0.3f;
 		            variklis.GetMaxRPM();
 					wheel1.transform.localScale = new Vector3(0.65f, 0.65f, 1);
@@ -113,8 +117,8 @@ public class enemyCars : MonoBehaviour {
 				}
 				else if(whichCar == 2) //VW
 				{
-					variklis.torqueCurve.AddKey(4.8f, 0);
-					variklis.power = 0.2f;
+					variklis.torqueCurve.AddKey(4.3f, 1);
+					variklis.power = 0.3f;
 		            variklis.GetMaxRPM();
 					wheel1.transform.localScale = new Vector3(0.7f, 0.7f, 1);
 					wheel2.transform.localScale = new Vector3(0.7f, 0.7f, 1);
@@ -137,8 +141,8 @@ public class enemyCars : MonoBehaviour {
 				}
 				else if(whichCar == 3) //CIVIC
 				{
-					variklis.torqueCurve.AddKey(4.5f, 0);
-					variklis.power = 0.35f;
+					variklis.torqueCurve.AddKey(4.3f, 1);
+					variklis.power = 0.3f;
 		            variklis.GetMaxRPM();
 					wheel1.transform.localScale = new Vector3(0.65f, 0.65f, 1);
 					wheel2.transform.localScale = new Vector3(0.65f, 0.65f, 1);
@@ -159,7 +163,31 @@ public class enemyCars : MonoBehaviour {
 					boostParticles[0].transform.localPosition = new Vector3(-0.44f, -0.4f, -2.35f); //bpl
 					boostParticles[1].transform.localPosition = new Vector3(0.44f, -0.4f, -2.35f); //bpr
 				}
+				else if(whichCar == 4) //CELICA
+				{
+					variklis.torqueCurve.AddKey(4.8f, 1);
+					variklis.power = 0.4f;
+		            variklis.GetMaxRPM();
+					wheel1.transform.localScale = new Vector3(0.65f, 0.65f, 1);
+					wheel2.transform.localScale = new Vector3(0.65f, 0.65f, 1);
+					wheel3.transform.localScale = new Vector3(0.65f, 0.65f, 1);
+					wheel4.transform.localScale = new Vector3(0.65f, 0.65f, 1);
+                    suspensions[0].transform.localPosition = new Vector3(-0.76f, -0.27f, 1.52f); //FL
+					suspensions[1].transform.localPosition = new Vector3(0.78f, -0.27f, 1.52f); //FR
+					suspensions[2].transform.localPosition = new Vector3(-0.76f, -0.27f, -1.23f); //RL
+					suspensions[3].transform.localPosition = new Vector3(0.78f, -0.27f, -1.23f); //RR
+					lights[0].transform.localPosition = new Vector3(-0.63f, 0.12f, -2.02f); //bl
+					lights[1].transform.localPosition = new Vector3(0.63f, 0.12f, -2.02f); //br
+					lights[2].transform.localPosition = new Vector3(0.01f, 0.32f, -2.05f); //bsh
+					lights[3].transform.localPosition = new Vector3(-0.74f, -0.01f, 2.35f); //hl
+					lights[4].transform.localPosition = new Vector3(0.74f, -0.01f, 2.35f); //hr
+					lights[5].transform.localPosition = new Vector3(0.5f, 0.12f, -2.04f); //rr
+					lights[6].transform.localPosition = new Vector3(-0.5f, 0.12f, -2.04f); //rl
+					licenseplate.transform.localPosition = new Vector3(0.301f, 0.49f, -2f);
+					boostParticles[0].transform.localPosition = new Vector3(-0.5f, -0.37f, -2.17f); //bpl
+					boostParticles[1].transform.localPosition = new Vector3(0.5f, -0.37f, -2.17f); //bpr
+				}
 			}
 		}
-	}
+	}*/
 }

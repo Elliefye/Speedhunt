@@ -1,0 +1,42 @@
+newmtl 2x2 lane road
+Kd 1 1 1
+Ks 0.5188678 0.5176103 0.2667763
+map_Kd C:\Users\Public\Documents\Unity Projects\Speedhunt\Need for Seed\Assets\zdrag\road2x2Lane_d.png
+map_Bump C:\Users\Public\Documents\Unity Projects\Speedhunt\Need for Seed\Assets\zdrag\road_b.png
+illum 2
+
+newmtl sidewalk
+Kd 1 1 1
+Ks 0.5377357 0.527503 0.2663313
+map_Kd C:\Users\Public\Documents\Unity Projects\Speedhunt\Need for Seed\Assets\zdrag\pavement2.png
+map_Bump C:\Users\Public\Documents\Unity Projects\Speedhunt\Need for Seed\Assets\zdrag\n_pavement2.png
+illum 2
+
+newmtl crossing material
+Kd 1 1 1
+Ks 0.5471698 0.5471698 0.2710038
+map_Kd C:\Users\Public\Documents\Unity Projects\Speedhunt\Need for Seed\Assets\zdrag\roadsample_d.png
+map_Bump C:\Users\Public\Documents\Unity Projects\Speedhunt\Need for Seed\Assets\zdrag\road_b.png
+illum 2
+
+newmtl pereja
+Kd 1 1 1
+map_Kd C:\Users\Public\Documents\Unity Projects\Speedhunt\Need for Seed\Assets\zdrag\pereja.png
+map_Bump C:\Users\Public\Documents\Unity Projects\Speedhunt\Need for Seed\Assets\zdrag\road_b.png
+illum 2
+
+newmtl road material
+map_Kd C:\Users\Public\Documents\Unity Projects\Speedhunt\Need for Seed\Assets\zdrag\road2Lane_d.png
+illum 2
+
+newmtl sidewalk 1
+Kd 1 1 1
+Ks 0.4811321 0.4743236 0.4743236
+map_Kd C:\Users\Public\Documents\Unity Projects\Speedhunt\Need for Seed\Assets\zdrag\pavement.png
+map_Bump C:\Users\Public\Documents\Unity Projects\Speedhunt\Need for Seed\Assets\zdrag\n_pavement.png
+illum 2
+
+newmtl race track material
+map_Kd C:\Users\Public\Documents\Unity Projects\Speedhunt\Need for Seed\Assets\zdrag\roadsample_d.png
+illum 2
+
